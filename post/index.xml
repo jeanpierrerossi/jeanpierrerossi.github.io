@@ -5,12 +5,41 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 27 Nov 2019 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 26 Feb 2020 21:13:14 -0500</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>A wonderful R package named fishualize</title>
+      <link>/2020/02/26/fishualize/</link>
+      <pubDate>Wed, 26 Feb 2020 21:13:14 -0500</pubDate>
+      <guid>/2020/02/26/fishualize/</guid>
+      <description>
+
+
+&lt;p&gt;I recently discovered the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;fishualize&lt;/code&gt; by Nina Schiettekatte, Simon Brandl and Jordan Casey. This package is amazing ! The idea is that you use a set of colors taken from the picture of a fish species. Note that apparently, authors concentrate on teleost fishes although some few chondrichthyan are present.&lt;/p&gt;
+&lt;p&gt;You can see the available color scales :&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(fishualize)
+vignette(&amp;quot;overview_colors&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;…But the best is that you can also contribute your own favourite color scales!&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vignette(&amp;quot;contribute&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Using this simple procedure I fishualized one of my favorite fish, namely &lt;strong&gt;Serranus scriba&lt;/strong&gt; (fam. Serranidae) which is a nice benthic fish very common in Mediterranean Sea and present in the western Atlantic and black sea as well. In Corsica, we call it “barchetta”. Its English name is “painted comber”.&lt;/p&gt;
+&lt;p&gt;From the picture below, I extracted the following color scale :&lt;/p&gt;
+&lt;p&gt;#65071c&lt;/p&gt;
+&lt;p&gt;#b90b0a&lt;/p&gt;
+&lt;p&gt;#ef0d00&lt;/p&gt;
+&lt;p&gt;#72ccfe&lt;/p&gt;
+&lt;p&gt;#3d63a0&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/post/2020-02-26-fishualize_files/Serranus_scriba.jpg&#34; alt=&#34;Serranus scriba. Source: Wikipedia&#34; width=&#34;400&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Serranus scriba. Source: Wikipedia&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Nina Schiettekatte, Simon Brandl and Jordan Casey (2019). fishualize: Color Palettes Based on Fish Species. R package version 0.1.0. &lt;a href=&#34;https://CRAN.R-project.org/package=fishualize&#34; class=&#34;uri&#34;&gt;https://CRAN.R-project.org/package=fishualize&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Le point sur le risque Xylella fastidiosa en France</title>

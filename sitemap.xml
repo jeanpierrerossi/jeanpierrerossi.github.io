@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2020/02/26/fishualize/</loc>
+    <lastmod>2020-02-26T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-02-26T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/fishualize/</loc>
+    <lastmod>2020-02-26T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-02-26T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-02-26T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2020-02-26T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-02-26T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/admin/</loc>
     <lastmod>2019-11-29T00:00:00+00:00</lastmod>
   </url>
@@ -29,11 +64,6 @@
   
   <url>
     <loc>/publication/journal-article/burban2019/</loc>
-    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2019-11-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,18 +113,8 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/thaumetopoea-pityocampa/</loc>
     <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-11-27T21:13:14-05:00</lastmod>
   </url>
   
   <url>
@@ -109,11 +129,6 @@
   
   <url>
     <loc>/tags/philaenus-spumarius/</loc>
-    <lastmod>2019-11-27T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2019-11-27T21:13:14-05:00</lastmod>
   </url>
   
@@ -249,11 +264,6 @@
   
   <url>
     <loc>/tags/quantitative-analysis/</loc>
-    <lastmod>2019-09-10T21:14:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
     <lastmod>2019-09-10T21:14:14-05:00</lastmod>
   </url>
   
