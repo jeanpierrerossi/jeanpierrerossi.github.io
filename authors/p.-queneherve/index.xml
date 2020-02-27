@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P. QuEnEhervE | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/p.-queneherve/</link>
+      <atom:link href="/authors/p.-queneherve/index.xml" rel="self" type="application/rss+xml" />
+    <description>P. QuEnEhervE</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 01 Jan 1998 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>P. QuEnEhervE</title>
+      <link>/authors/p.-queneherve/</link>
+    </image>
+    
+    <item>
+      <title>Relating species density to environmental variables in presence of spatial autocorrelation: a study case on soil nematodes distribution</title>
+      <link>/publication/1998-01-01_rn187/</link>
+      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      <guid>/publication/1998-01-01_rn187/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microspatial structure of a plant-parasitic nematode community in a sugarcane field in Martinique</title>
+      <link>/publication/1996-01-01_rn191/</link>
+      <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
+      <guid>/publication/1996-01-01_rn191/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plant row and soil factors influencing the microspatial patterns of plant-parasitic nematodes on sugarcane in Martinique</title>
+      <link>/publication/1996-01-01_rn193/</link>
+      <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
+      <guid>/publication/1996-01-01_rn193/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microspatial structure of sugarcane nematode community on ferrisol in Martinique</title>
+      <link>/publication/1995-01-01_rn195/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      <guid>/publication/1995-01-01_rn195/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

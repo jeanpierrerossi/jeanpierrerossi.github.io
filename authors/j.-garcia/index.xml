@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Garcia | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/j.-garcia/</link>
+      <atom:link href="/authors/j.-garcia/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Garcia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J. Garcia</title>
+      <link>/authors/j.-garcia/</link>
+    </image>
+    
+    <item>
+      <title>An exhaustive inventory of coniferous trees in an agricultural landscape</title>
+      <link>/publication/2015-01-01_rn119/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/2015-01-01_rn119/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inventaire des arbres-hotes de la processionnaire du pin a l&#39;interface ville-foret-champs - An inventory of host tree species of the pine processionary moth at the interface between urban, forest and arable areas</title>
+      <link>/publication/2013-01-01_rn134/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/2013-01-01_rn134/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilisation des donn\&#39;ees Google Street View pour cartographier la distribution g\&#39;eographique des esp\`eces. Une \&#39;etude pr\&#39;eliminaire de la processionnaire du pin (Thaumetopoea pityocampa)</title>
+      <link>/publication/2012-01-01_rn138/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-01-01_rn138/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

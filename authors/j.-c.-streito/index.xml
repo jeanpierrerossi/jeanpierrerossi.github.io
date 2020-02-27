@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. C. Streito | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/j.-c.-streito/</link>
+      <atom:link href="/authors/j.-c.-streito/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. C. Streito</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J. C. Streito</title>
+      <link>/authors/j.-c.-streito/</link>
+    </image>
+    
+    <item>
+      <title>Restriction-site associated DNA markers provide new insights into the evolutionary history of the bark beetle genus Dendroctonus</title>
+      <link>/publication/2019-01-01_rn104/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_rn104/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La punaise diabolique \`a la conqu\^ete de la France</title>
+      <link>/publication/2014-01-01_rn128/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/2014-01-01_rn128/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kim Hoelmer | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/kim-hoelmer/</link>
+      <atom:link href="/authors/kim-hoelmer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kim Hoelmer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Kim Hoelmer</title>
+      <link>/authors/kim-hoelmer/</link>
+    </image>
+    
+    <item>
+      <title>Range expansion of the invasive brown marmorated stinkbug, Halyomorpha halys: an increasing threat to field, fruit and vegetable crops worldwide</title>
+      <link>/publication/2015-01-01_rn124/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/2015-01-01_rn124/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

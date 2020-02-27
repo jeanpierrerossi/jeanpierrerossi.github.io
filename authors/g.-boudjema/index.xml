@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>G. Boudjema | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/g.-boudjema/</link>
+      <atom:link href="/authors/g.-boudjema/index.xml" rel="self" type="application/rss+xml" />
+    <description>G. Boudjema</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Mon, 01 Jan 2001 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>G. Boudjema</title>
+      <link>/authors/g.-boudjema/</link>
+    </image>
+    
+    <item>
+      <title>Distribution spatiale de la faune des sols et orientations possibles de certaines options de gestion des terre agricoles</title>
+      <link>/publication/2001-01-01_rn180/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/publication/2001-01-01_rn180/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

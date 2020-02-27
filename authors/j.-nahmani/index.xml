@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Nahmani | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/j.-nahmani/</link>
+      <atom:link href="/authors/j.-nahmani/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Nahmani</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J. Nahmani</title>
+      <link>/authors/j.-nahmani/</link>
+    </image>
+    
+    <item>
+      <title>Decreasing fallow duration in tropical slash-and-burn agriculture alters soil macroinvertebrate diversity: A case study in southern French Guiana</title>
+      <link>/publication/2010-01-01_rn151/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/2010-01-01_rn151/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Does changing the taxonomical resolution alter the value of soil macroinvertebrates as bioindicators of metal pollution?</title>
+      <link>/publication/2006-01-01_rn166/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/2006-01-01_rn166/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

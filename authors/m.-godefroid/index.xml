@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. Godefroid | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/m.-godefroid/</link>
+      <atom:link href="/authors/m.-godefroid/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. Godefroid</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>M. Godefroid</title>
+      <link>/authors/m.-godefroid/</link>
+    </image>
+    
+    <item>
+      <title>Current and future distribution of the invasive oak processionary moth</title>
+      <link>/publication/2020-01-01_rn100/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-01-01_rn100/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Restriction-site associated DNA markers provide new insights into the evolutionary history of the bark beetle genus Dendroctonus</title>
+      <link>/publication/2019-01-01_rn104/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_rn104/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate constrains range expansion of an allochronic population of the pine processionary moth</title>
+      <link>/publication/2016-01-01_rn115/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/2016-01-01_rn115/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P. F. da S. Martins | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/p.-f.-da-s.-martins/</link>
+      <atom:link href="/authors/p.-f.-da-s.-martins/index.xml" rel="self" type="application/rss+xml" />
+    <description>P. F. da S. Martins</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sat, 01 Jan 2005 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>P. F. da S. Martins</title>
+      <link>/authors/p.-f.-da-s.-martins/</link>
+    </image>
+    
+    <item>
+      <title>Recovery of Soil Macrofauna Communities after Forest Clearance in Eastern Amazonia, Brazil</title>
+      <link>/publication/2005-01-01_rn172/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/2005-01-01_rn172/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

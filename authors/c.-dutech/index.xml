@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C. Dutech | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/c.-dutech/</link>
+      <atom:link href="/authors/c.-dutech/index.xml" rel="self" type="application/rss+xml" />
+    <description>C. Dutech</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 01 Jan 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>C. Dutech</title>
+      <link>/authors/c.-dutech/</link>
+    </image>
+    
+    <item>
+      <title>Geostatistical genetic analysis for inferring the dispersal pattern of a partially clonal species: example of the chestnut blight fungus</title>
+      <link>/publication/2008-01-01_rn158/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/2008-01-01_rn158/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

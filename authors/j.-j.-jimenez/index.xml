@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. J. Jimenez | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/j.-j.-jimenez/</link>
+      <atom:link href="/authors/j.-j.-jimenez/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. J. Jimenez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J. J. Jimenez</title>
+      <link>/authors/j.-j.-jimenez/</link>
+    </image>
+    
+    <item>
+      <title>Dissecting the multi-scale spatial relationship of earthworm assemblages with soil environmental variability</title>
+      <link>/publication/2014-01-01_rn130/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/2014-01-01_rn130/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial dissociation between two endogeic earthworms in the Colombian ``Llanos&#39;&#39;</title>
+      <link>/publication/2006-01-01_rn169/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/2006-01-01_rn169/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial distribution of earthworms in acid-soil savannas of the eastern plains of Colombia</title>
+      <link>/publication/2001-01-01_rn182/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/publication/2001-01-01_rn182/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecology of earthworm species with large environmental tolerance and/or extended distributions</title>
+      <link>/publication/1999-01-01_rn186/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/1999-01-01_rn186/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

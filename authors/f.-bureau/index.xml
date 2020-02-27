@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F. Bureau | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/f.-bureau/</link>
+      <atom:link href="/authors/f.-bureau/index.xml" rel="self" type="application/rss+xml" />
+    <description>F. Bureau</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>F. Bureau</title>
+      <link>/authors/f.-bureau/</link>
+    </image>
+    
+    <item>
+      <title>Soil invertebrates and ecosystem services</title>
+      <link>/publication/2006-01-01_rn168/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/2006-01-01_rn168/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

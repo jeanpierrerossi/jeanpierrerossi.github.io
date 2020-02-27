@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Y. Rasplus | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/j.-y.-rasplus/</link>
+      <atom:link href="/authors/j.-y.-rasplus/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Y. Rasplus</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J. Y. Rasplus</title>
+      <link>/authors/j.-y.-rasplus/</link>
+    </image>
+    
+    <item>
+      <title>Restriction-site associated DNA markers provide new insights into the evolutionary history of the bark beetle genus Dendroctonus</title>
+      <link>/publication/2019-01-01_rn104/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_rn104/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate constrains range expansion of an allochronic population of the pine processionary moth</title>
+      <link>/publication/2016-01-01_rn115/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/2016-01-01_rn115/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative community ecology studies on Old World figs and fig wasps</title>
+      <link>/publication/2000-01-01_rn185/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>/publication/2000-01-01_rn185/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

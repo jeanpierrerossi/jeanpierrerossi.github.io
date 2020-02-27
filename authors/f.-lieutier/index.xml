@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F. Lieutier | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/f.-lieutier/</link>
+      <atom:link href="/authors/f.-lieutier/index.xml" rel="self" type="application/rss+xml" />
+    <description>F. Lieutier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>F. Lieutier</title>
+      <link>/authors/f.-lieutier/</link>
+    </image>
+    
+    <item>
+      <title>Etude spatio-temporelle pr\&#39;eliminaire du d\&#39;ep\&#39;erissement du c\`edre (Cedrus atlantica Manetti) dans deux peuplements du Moyen Atlas marocain</title>
+      <link>/publication/2012-01-01_rn143/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-01-01_rn143/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mod\&#39;elisation de la distribution g\&#39;eographique de deux scolytes, Tomicus destruens et Tomicus piniperda, en Europe et dans la r\&#39;egion m\&#39;editerran\&#39;eenne</title>
+      <link>/publication/2012-01-01_rn141/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-01-01_rn141/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathieu Gautier | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/mathieu-gautier/</link>
+      <atom:link href="/authors/mathieu-gautier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mathieu Gautier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Mathieu Gautier</title>
+      <link>/authors/mathieu-gautier/</link>
+    </image>
+    
+    <item>
+      <title>RADIS: analysis of RAD -seq data for interspecific phylogeny</title>
+      <link>/publication/2016-01-01_rn118/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/2016-01-01_rn118/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

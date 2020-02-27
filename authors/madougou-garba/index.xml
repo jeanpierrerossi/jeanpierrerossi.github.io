@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Madougou Garba | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/madougou-garba/</link>
+      <atom:link href="/authors/madougou-garba/index.xml" rel="self" type="application/rss+xml" />
+    <description>Madougou Garba</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Madougou Garba</title>
+      <link>/authors/madougou-garba/</link>
+    </image>
+    
+    <item>
+      <title>Urban Market Gardening and Rodent-Borne Pathogenic Leptospira in Arid Zones: A Case Study in Niamey, Niger</title>
+      <link>/publication/2015-01-01_rn126/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/2015-01-01_rn126/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local perception of rodent-associated problems in Sahelian urban areas: a survey in Niamey, Niger</title>
+      <link>/publication/2014-01-01_rn131/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/2014-01-01_rn131/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial Segregation between Invasive and Native Commensal Rodents in an Urban Environment: A Case Study in Niamey, Niger</title>
+      <link>/publication/2014-01-01_rn132/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/2014-01-01_rn132/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toxoplasmosis seroprevalence in urban rodents: a survey in Niamey, Niger</title>
+      <link>/publication/2013-01-01_rn137/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/2013-01-01_rn137/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

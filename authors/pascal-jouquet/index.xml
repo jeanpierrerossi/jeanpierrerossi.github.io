@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pascal Jouquet | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/pascal-jouquet/</link>
+      <atom:link href="/authors/pascal-jouquet/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pascal Jouquet</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 01 Jan 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Pascal Jouquet</title>
+      <link>/authors/pascal-jouquet/</link>
+    </image>
+    
+    <item>
+      <title>Spatial patterns of grasses influence soil macrofauna biodiversity in Amazonian pastures</title>
+      <link>/publication/2009-01-01_rn154/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/2009-01-01_rn154/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

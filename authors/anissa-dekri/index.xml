@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anissa Dekri | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/anissa-dekri/</link>
+      <atom:link href="/authors/anissa-dekri/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anissa Dekri</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Anissa Dekri</title>
+      <link>/authors/anissa-dekri/</link>
+    </image>
+    
+    <item>
+      <title>Assessing species distribution using Google Street View: A pilot study with the pine processionary moth</title>
+      <link>/publication/2013-01-01_rn133/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/2013-01-01_rn133/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

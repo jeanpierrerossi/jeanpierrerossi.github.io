@@ -5,12 +5,140 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
+    
+    <item>
+      <title>Astrid Cruaud</title>
+      <link>/authors/astrid-cruaud/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/astrid-cruaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Burban</title>
+      <link>/authors/c.-burban/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-burban/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Kerdelhue</title>
+      <link>/authors/c.-kerdelhue/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-kerdelhue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F. Groenen</title>
+      <link>/authors/f.-groenen/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/f.-groenen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guenaelle Genson</title>
+      <link>/authors/guenaelle-genson/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/guenaelle-genson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J.-P. Rossi</title>
+      <link>/authors/j.-p.-rossi/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-p.-rossi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Pierre Rossi</title>
+      <link>/authors/jean-pierre-rossi/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-pierre-rossi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Yves Rasplus</title>
+      <link>/authors/jean-yves-rasplus/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-yves-rasplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Saune</title>
+      <link>/authors/l.-saune/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-saune/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Branco</title>
+      <link>/authors/m.-branco/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-branco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Godefroid</title>
+      <link>/authors/m.-godefroid/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-godefroid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marguerite Chartois</title>
+      <link>/authors/marguerite-chartois/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/marguerite-chartois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>N. Meurisse</title>
+      <link>/authors/n.-meurisse/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/n.-meurisse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R. Leblois</title>
+      <link>/authors/r.-leblois/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/r.-leblois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Rocha</title>
+      <link>/authors/s.-rocha/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-rocha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xavier Mesmin</title>
+      <link>/authors/xavier-mesmin/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/xavier-mesmin/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -29,7 +157,7 @@
     </item>
     
     <item>
-      <title>Carole Kerdelhué</title>
+      <title>Carole Kerdelhue</title>
       <link>/authors/carole-kerdelhue/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/carole-kerdelhue/</guid>
@@ -165,14 +293,6 @@
     </item>
     
     <item>
-      <title>Astrid Cruaud</title>
-      <link>/authors/astrid-cruaud/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/astrid-cruaud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jean-Claude Streito</title>
       <link>/authors/jean-claude-streito/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
@@ -181,18 +301,74 @@
     </item>
     
     <item>
-      <title>Jean-Yves Rasplus</title>
-      <link>/authors/jean-yves-rasplus/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/jean-yves-rasplus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gauthier Dobigny</title>
       <link>/authors/gauthier-dobigny/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>/authors/gauthier-dobigny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Cruaud</title>
+      <link>/authors/a.-cruaud/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-cruaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. S. Meseguer</title>
+      <link>/authors/a.-s.-meseguer/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-s.-meseguer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. {Zaldivar Riveron}</title>
+      <link>/authors/a.-zaldivar-riveron/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-zaldivar-riveron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F. Mayer</title>
+      <link>/authors/f.-mayer/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/f.-mayer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. Genson</title>
+      <link>/authors/g.-genson/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/g.-genson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. C. Streito</title>
+      <link>/authors/j.-c.-streito/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-c.-streito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Y. Rasplus</title>
+      <link>/authors/j.-y.-rasplus/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-y.-rasplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pauline Farigoule</title>
+      <link>/authors/pauline-farigoule/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/pauline-farigoule/</guid>
       <description></description>
     </item>
     
@@ -229,7 +405,7 @@
     </item>
     
     <item>
-      <title>Ibrahima Kadaouré</title>
+      <title>Ibrahima Kadaoure</title>
       <link>/authors/ibrahima-kadaoure/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/authors/ibrahima-kadaoure/</guid>
@@ -237,7 +413,79 @@
     </item>
     
     <item>
-      <title>Jérôme Rousselet</title>
+      <title>Alain Roques</title>
+      <link>/authors/alain-roques/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/alain-roques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emmanuelle Dauffy-Richard</title>
+      <link>/authors/emmanuelle-dauffy-richard/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/emmanuelle-dauffy-richard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geraldine Roux</title>
+      <link>/authors/geraldine-roux/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/geraldine-roux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Juan Pajares</title>
+      <link>/authors/juan-pajares/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/juan-pajares/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Julien M. Haran</title>
+      <link>/authors/julien-m.-haran/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/julien-m.-haran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luis Bonifacio</title>
+      <link>/authors/luis-bonifacio/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/luis-bonifacio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Olivier Denux</title>
+      <link>/authors/olivier-denux/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/olivier-denux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedro Naves</title>
+      <link>/authors/pedro-naves/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/pedro-naves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sylvie Augustin</title>
+      <link>/authors/sylvie-augustin/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/sylvie-augustin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jerome Rousselet</title>
       <link>/authors/jerome-rousselet/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       <guid>/authors/jerome-rousselet/</guid>
@@ -285,18 +533,1834 @@
     </item>
     
     <item>
-      <title>Alain Roques</title>
-      <link>/authors/alain-roques/</link>
-      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>/authors/alain-roques/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jacques Garcia</title>
       <link>/authors/jacques-garcia/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       <guid>/authors/jacques-garcia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David Porco</title>
+      <link>/authors/david-porco/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/david-porco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emmanuel Lapied</title>
+      <link>/authors/emmanuel-lapied/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/emmanuel-lapied/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Florence Dubs</title>
+      <link>/authors/florence-dubs/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/florence-dubs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>George G. Brown</title>
+      <link>/authors/george-g.-brown/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/george-g.-brown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>H. Santos</title>
+      <link>/authors/h.-santos/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/h.-santos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Rousselet</title>
+      <link>/authors/j.-rousselet/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-rousselet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jerome Gouzy</title>
+      <link>/authors/jerome-gouzy/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/jerome-gouzy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lise Dupont</title>
+      <link>/authors/lise-dupont/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/lise-dupont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. R. R. Paiva</title>
+      <link>/authors/m.-r.-r.-paiva/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-r.-r.-paiva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathieu Gautier</title>
+      <link>/authors/mathieu-gautier/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/mathieu-gautier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rodolphe Rougerie</title>
+      <link>/authors/rodolphe-rougerie/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/rodolphe-rougerie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samuel W. James</title>
+      <link>/authors/samuel-w.-james/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/samuel-w.-james/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T. Lamant</title>
+      <link>/authors/t.-lamant/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/t.-lamant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thibaud Decaens</title>
+      <link>/authors/thibaud-decaens/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/thibaud-decaens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>V. Imbault</title>
+      <link>/authors/v.-imbault/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/v.-imbault/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vincent Chassany</title>
+      <link>/authors/vincent-chassany/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/vincent-chassany/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virginie Roy</title>
+      <link>/authors/virginie-roy/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/virginie-roy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Roques</title>
+      <link>/authors/a.-roques/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-roques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andrea Battisti</title>
+      <link>/authors/andrea-battisti/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/andrea-battisti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anna Cassel-Lundhagen</title>
+      <link>/authors/anna-cassel-lundhagen/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/anna-cassel-lundhagen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anne Loiseau</title>
+      <link>/authors/anne-loiseau/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/anne-loiseau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>B. Musch</title>
+      <link>/authors/b.-musch/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/b.-musch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carlos Lopez-Vaamonde</title>
+      <link>/authors/carlos-lopez-vaamonde/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/carlos-lopez-vaamonde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Caroline Tatard</title>
+      <link>/authors/caroline-tatard/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/caroline-tatard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cecilia Ronnaas</title>
+      <link>/authors/cecilia-ronnaas/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/cecilia-ronnaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christelle Robinet</title>
+      <link>/authors/christelle-robinet/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/christelle-robinet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Claudine Courtin</title>
+      <link>/authors/claudine-courtin/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/claudine-courtin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eduardo Mateus</title>
+      <link>/authors/eduardo-mateus/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/eduardo-mateus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emmanuelle Magnoux</title>
+      <link>/authors/emmanuelle-magnoux/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/emmanuelle-magnoux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enrico Negrisolo</title>
+      <link>/authors/enrico-negrisolo/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/enrico-negrisolo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eric Bertherat</title>
+      <link>/authors/eric-bertherat/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/eric-bertherat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Henri Berestycki</title>
+      <link>/authors/henri-berestycki/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/henri-berestycki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isabelle Pivotto</title>
+      <link>/authors/isabelle-pivotto/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/isabelle-pivotto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IsabelleD Pivotto</title>
+      <link>/authors/isabelled-pivotto/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/isabelled-pivotto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Garcia</title>
+      <link>/authors/j.-garcia/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-garcia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Michel Roquejoffre</title>
+      <link>/authors/jean-michel-roquejoffre/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-michel-roquejoffre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jimmy Garnier</title>
+      <link>/authors/jimmy-garnier/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/jimmy-garnier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>John Stewart</title>
+      <link>/authors/john-stewart/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/john-stewart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kahraman Ipekdal</title>
+      <link>/authors/kahraman-ipekdal/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/kahraman-ipekdal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kim Hoelmer</title>
+      <link>/authors/kim-hoelmer/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/kim-hoelmer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. E. Paques</title>
+      <link>/authors/l.-e.-paques/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-e.-paques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Sanchez</title>
+      <link>/authors/l.-sanchez/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-sanchez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lionel Roques</title>
+      <link>/authors/lionel-roques/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/lionel-roques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorenzo Zane</title>
+      <link>/authors/lorenzo-zane/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/lorenzo-zane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luca Rossi</title>
+      <link>/authors/luca-rossi/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/luca-rossi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Nardin</title>
+      <link>/authors/m.-nardin/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-nardin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Madougou Garba</title>
+      <link>/authors/madougou-garba/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/madougou-garba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magally Torres-Leguizamon</title>
+      <link>/authors/magally-torres-leguizamon/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/magally-torres-leguizamon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marie-Anne Auger-Rozenberg</title>
+      <link>/authors/marie-anne-auger-rozenberg/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/marie-anne-auger-rozenberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathieu Picardeau</title>
+      <link>/authors/mathieu-picardeau/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/mathieu-picardeau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mauro Simonato</title>
+      <link>/authors/mauro-simonato/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/mauro-simonato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Max Galan</title>
+      <link>/authors/max-galan/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/max-galan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nicolas Desneux</title>
+      <link>/authors/nicolas-desneux/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/nicolas-desneux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. Rozenberg</title>
+      <link>/authors/p.-rozenberg/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-rozenberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paola Salvato</title>
+      <link>/authors/paola-salvato/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/paola-salvato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patrick Lavelle</title>
+      <link>/authors/patrick-lavelle/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/patrick-lavelle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Gerber</title>
+      <link>/authors/s.-gerber/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-gerber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Marin</title>
+      <link>/authors/s.-marin/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-marin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samuel Soubeyrand</title>
+      <link>/authors/samuel-soubeyrand/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/samuel-soubeyrand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stig Larsson</title>
+      <link>/authors/stig-larsson/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/stig-larsson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tara Gariepy</title>
+      <link>/authors/tara-gariepy/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/tara-gariepy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tim Haye</title>
+      <link>/authors/tim-haye/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/tim-haye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>V. Guerin</title>
+      <link>/authors/v.-guerin/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/v.-guerin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xavier Tassus</title>
+      <link>/authors/xavier-tassus/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/xavier-tassus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Y. Rousselle</title>
+      <link>/authors/y.-rousselle/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/y.-rousselle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zvi Mendel</title>
+      <link>/authors/zvi-mendel/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/zvi-mendel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alejandro Martinez-Meier</title>
+      <link>/authors/alejandro-martinez-meier/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/alejandro-martinez-meier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambroise Dalecky</title>
+      <link>/authors/ambroise-dalecky/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/ambroise-dalecky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anne-Sophie Sergent</title>
+      <link>/authors/anne-sophie-sergent/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/anne-sophie-sergent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. J. Jimenez</title>
+      <link>/authors/j.-j.-jimenez/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-j.-jimenez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K. Hoelmer</title>
+      <link>/authors/k.-hoelmer/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/k.-hoelmer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Karmadine Hima</title>
+      <link>/authors/karmadine-hima/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/karmadine-hima/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luc Paques</title>
+      <link>/authors/luc-paques/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/luc-paques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mamadou Kane</title>
+      <link>/authors/mamadou-kane/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/mamadou-kane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manuela Ruiz-Diaz</title>
+      <link>/authors/manuela-ruiz-diaz/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/manuela-ruiz-diaz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maxime Nardin</title>
+      <link>/authors/maxime-nardin/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/maxime-nardin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. Lavelle</title>
+      <link>/authors/p.-lavelle/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-lavelle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philippe Gauthier</title>
+      <link>/authors/philippe-gauthier/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/philippe-gauthier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philippe Rozenberg</title>
+      <link>/authors/philippe-rozenberg/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/philippe-rozenberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ramatou Sidikou</title>
+      <link>/authors/ramatou-sidikou/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/ramatou-sidikou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sama Gagare</title>
+      <link>/authors/sama-gagare/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/sama-gagare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sophie Veran</title>
+      <link>/authors/sophie-veran/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/sophie-veran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T. Decaens</title>
+      <link>/authors/t.-decaens/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/t.-decaens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T. Haye</title>
+      <link>/authors/t.-haye/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/t.-haye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X. Tassus</title>
+      <link>/authors/x.-tassus/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/x.-tassus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Dowkiw</title>
+      <link>/authors/a.-dowkiw/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-dowkiw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Mercier</title>
+      <link>/authors/a.-mercier/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-mercier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. {Coeur d&#39;Acier}</title>
+      <link>/authors/a.-coeur-dacier/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-coeur-dacier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anissa Dekri</title>
+      <link>/authors/anissa-dekri/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/anissa-dekri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aurelien Mercier</title>
+      <link>/authors/aurelien-mercier/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/aurelien-mercier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bruno Vincent</title>
+      <link>/authors/bruno-vincent/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/bruno-vincent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Robinet</title>
+      <link>/authors/c.-robinet/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-robinet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Charles-Edouard Imbert</title>
+      <link>/authors/charles-edouard-imbert/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/charles-edouard-imbert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. Jousselin</title>
+      <link>/authors/e.-jousselin/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/e.-jousselin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F. Vanlerberghe-Masutti</title>
+      <link>/authors/f.-vanlerberghe-masutti/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/f.-vanlerberghe-masutti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Francis Goussard</title>
+      <link>/authors/francis-goussard/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/francis-goussard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Franck Dorkeld</title>
+      <link>/authors/franck-dorkeld/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/franck-dorkeld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. Dobigny</title>
+      <link>/authors/g.-dobigny/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/g.-dobigny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>H. Bonnabau</title>
+      <link>/authors/h.-bonnabau/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/h.-bonnabau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Henri Bonnabau</title>
+      <link>/authors/henri-bonnabau/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/henri-bonnabau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Piffaretti</title>
+      <link>/authors/j.-piffaretti/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-piffaretti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Garba</title>
+      <link>/authors/m.-garba/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-garba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Kane</title>
+      <link>/authors/m.-kane/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-kane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. L. Darde</title>
+      <link>/authors/m.-l.-darde/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-l.-darde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marie-Laure Darde</title>
+      <link>/authors/marie-laure-darde/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/marie-laure-darde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Dekri</title>
+      <link>/authors/a.-dekri/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-dekri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Horn</title>
+      <link>/authors/a.-horn/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-horn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Loiseau</title>
+      <link>/authors/a.-loiseau/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-loiseau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agnes Horn</title>
+      <link>/authors/agnes-horn/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/agnes-horn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alain Pasquet</title>
+      <link>/authors/alain-pasquet/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/alain-pasquet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apolline Auclerc</title>
+      <link>/authors/apolline-auclerc/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/apolline-auclerc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aurore Lassauce</title>
+      <link>/authors/aurore-lassauce/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/aurore-lassauce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>B. Facon</title>
+      <link>/authors/b.-facon/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/b.-facon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. E. Imbert</title>
+      <link>/authors/c.-e.-imbert/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-e.-imbert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Charles Gers</title>
+      <link>/authors/charles-gers/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/charles-gers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>D. Ghaioule</title>
+      <link>/authors/d.-ghaioule/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/d.-ghaioule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delphine Aran</title>
+      <link>/authors/delphine-aran/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/delphine-aran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estoup A</title>
+      <link>/authors/estoup-a/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/estoup-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Etienne Iorio</title>
+      <link>/authors/etienne-iorio/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/etienne-iorio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F. Dorkeld</title>
+      <link>/authors/f.-dorkeld/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/f.-dorkeld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F. Goussard</title>
+      <link>/authors/f.-goussard/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/f.-goussard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F. Lieutier</title>
+      <link>/authors/f.-lieutier/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/f.-lieutier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Francois Guerold</title>
+      <link>/authors/francois-guerold/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/francois-guerold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Francois Lieutier</title>
+      <link>/authors/francois-lieutier/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/francois-lieutier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. J. Kergoat</title>
+      <link>/authors/g.-j.-kergoat/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/g.-j.-kergoat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Henry Callot</title>
+      <link>/authors/henry-callot/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/henry-callot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Foucaud</title>
+      <link>/authors/j.-foucaud/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-foucaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Orivel</title>
+      <link>/authors/j.-orivel/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-orivel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Johanne Nahmani</title>
+      <link>/authors/johanne-nahmani/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/johanne-nahmani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jorg Spelda</title>
+      <link>/authors/jorg-spelda/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/jorg-spelda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Juan-Jose Jimenez</title>
+      <link>/authors/juan-jose-jimenez/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/juan-jose-jimenez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Calcaterra</title>
+      <link>/authors/l.-calcaterra/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-calcaterra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Chifflet</title>
+      <link>/authors/l.-chifflet/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-chifflet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Leponce</title>
+      <link>/authors/m.-leponce/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-leponce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Vonshak</title>
+      <link>/authors/m.-vonshak/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-vonshak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O. Denux</title>
+      <link>/authors/o.-denux/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/o.-denux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O. Rey</title>
+      <link>/authors/o.-rey/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/o.-rey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Blanchet</title>
+      <link>/authors/s.-blanchet/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-blanchet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T. Schultz</title>
+      <link>/authors/t.-schultz/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/t.-schultz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virginie Baldy</title>
+      <link>/authors/virginie-baldy/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/virginie-baldy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. M. Dulaurent</title>
+      <link>/authors/a.-m.-dulaurent/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-m.-dulaurent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Moing</title>
+      <link>/authors/a.-moing/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-moing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Deborde</title>
+      <link>/authors/c.-deborde/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-deborde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>H. Jactel</title>
+      <link>/authors/h.-jactel/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/authors/h.-jactel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Charles Samalens</title>
+      <link>/authors/jean-charles-samalens/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-charles-samalens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. Menassieu</title>
+      <link>/authors/p.-menassieu/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-menassieu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. Lapied</title>
+      <link>/authors/e.-lapied/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/authors/e.-lapied/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I. {van Halder}</title>
+      <link>/authors/i.-van-halder/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/authors/i.-van-halder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. F. Ponge</title>
+      <link>/authors/j.-f.-ponge/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-f.-ponge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Mathieu</title>
+      <link>/authors/j.-mathieu/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-mathieu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Nahmani</title>
+      <link>/authors/j.-nahmani/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-nahmani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Celini</title>
+      <link>/authors/l.-celini/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-celini/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. Mora</title>
+      <link>/authors/p.-mora/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-mora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Franc</title>
+      <link>/authors/a.-franc/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-franc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aurelien Salle</title>
+      <link>/authors/aurelien-salle/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/aurelien-salle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coralie Bertheau</title>
+      <link>/authors/coralie-bertheau/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/coralie-bertheau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Corinne Rouland</title>
+      <link>/authors/corinne-rouland/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/corinne-rouland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>D. Guyon</title>
+      <link>/authors/d.-guyon/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/d.-guyon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>D. Piou</title>
+      <link>/authors/d.-piou/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/d.-piou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. X. Rousseau</title>
+      <link>/authors/g.-x.-rousseau/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/g.-x.-rousseau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geraldine Roux-morabito</title>
+      <link>/authors/geraldine-roux-morabito/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/geraldine-roux-morabito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. C. Samalens</title>
+      <link>/authors/j.-c.-samalens/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-c.-samalens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jerome Mathieu</title>
+      <link>/authors/jerome-mathieu/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/jerome-mathieu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michel Grimaldi</title>
+      <link>/authors/michel-grimaldi/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/michel-grimaldi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pascal Jouquet</title>
+      <link>/authors/pascal-jouquet/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/pascal-jouquet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stephanie Bankhead-dronnet</title>
+      <link>/authors/stephanie-bankhead-dronnet/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/stephanie-bankhead-dronnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thierry Desjardins</title>
+      <link>/authors/thierry-desjardins/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/thierry-desjardins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xavier Pineau</title>
+      <link>/authors/xavier-pineau/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/authors/xavier-pineau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Dutech</title>
+      <link>/authors/c.-dutech/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-dutech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Robin</title>
+      <link>/authors/c.-robin/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-robin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evelyne Garnier-Zarli</title>
+      <link>/authors/evelyne-garnier-zarli/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/authors/evelyne-garnier-zarli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabien Thomas</title>
+      <link>/authors/fabien-thomas/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/authors/fabien-thomas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O. Fabreguettes</title>
+      <link>/authors/o.-fabreguettes/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/authors/o.-fabreguettes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paulo {Fernando da Silva Martins}</title>
+      <link>/authors/paulo-fernando-da-silva-martins/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/authors/paulo-fernando-da-silva-martins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabrice Vetillard</title>
+      <link>/authors/fabrice-vetillard/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/authors/fabrice-vetillard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Herve Jactel</title>
+      <link>/authors/herve-jactel/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/authors/herve-jactel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Fernandez</title>
+      <link>/authors/j.-fernandez/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-fernandez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Julien Nezan</title>
+      <link>/authors/julien-nezan/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/authors/julien-nezan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luc Barbaro</title>
+      <link>/authors/luc-barbaro/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/authors/luc-barbaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>N. Gorosito</title>
+      <link>/authors/n.-gorosito/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/authors/n.-gorosito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. J. Folgarait</title>
+      <link>/authors/p.-j.-folgarait/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-j.-folgarait/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R. Pizzio</title>
+      <link>/authors/r.-pizzio/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/authors/r.-pizzio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Barot</title>
+      <link>/authors/s.-barot/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-barot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Fragoso</title>
+      <link>/authors/c.-fragoso/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-fragoso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Rouland</title>
+      <link>/authors/c.-rouland/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-rouland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Seuge</title>
+      <link>/authors/c.-seuge/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-seuge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. Huerta</title>
+      <link>/authors/e.-huerta/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/e.-huerta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F. Bureau</title>
+      <link>/authors/f.-bureau/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/f.-bureau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Francois Ponge</title>
+      <link>/authors/jean-francois-ponge/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-francois-ponge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Marie Betsch</title>
+      <link>/authors/jean-marie-betsch/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-marie-betsch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Aubert</title>
+      <link>/authors/m.-aubert/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-aubert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Blouin</title>
+      <link>/authors/m.-blouin/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-blouin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Miguel Cooper</title>
+      <link>/authors/miguel-cooper/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/miguel-cooper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. Margerie</title>
+      <link>/authors/p.-margerie/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-margerie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philippe Gaucher</title>
+      <link>/authors/philippe-gaucher/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/philippe-gaucher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stephanie Topoliantz</title>
+      <link>/authors/stephanie-topoliantz/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/stephanie-topoliantz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sylvain Ballof</title>
+      <link>/authors/sylvain-ballof/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/authors/sylvain-ballof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eric Blanchart</title>
+      <link>/authors/eric-blanchart/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/authors/eric-blanchart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Grimaldi</title>
+      <link>/authors/m.-grimaldi/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-grimaldi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. F. da S. Martins</title>
+      <link>/authors/p.-f.-da-s.-martins/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-f.-da-s.-martins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F. Thomas</title>
+      <link>/authors/f.-thomas/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>/authors/f.-thomas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. Folgarait</title>
+      <link>/authors/p.-folgarait/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-folgarait/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philippe Mora</title>
+      <link>/authors/philippe-mora/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>/authors/philippe-mora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>V. Nuutinen</title>
+      <link>/authors/v.-nuutinen/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>/authors/v.-nuutinen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. Barros</title>
+      <link>/authors/e.-barros/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/authors/e.-barros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. Blanchart</title>
+      <link>/authors/e.-blanchart/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/authors/e.-blanchart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. Boudjema</title>
+      <link>/authors/g.-boudjema/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/authors/g.-boudjema/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. Brown</title>
+      <link>/authors/g.-brown/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/authors/g.-brown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Mariani</title>
+      <link>/authors/l.-mariani/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-mariani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T. Desjardins</title>
+      <link>/authors/t.-desjardins/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/authors/t.-desjardins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Angeles</title>
+      <link>/authors/a.-angeles/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-angeles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Moreno</title>
+      <link>/authors/a.-moreno/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-moreno/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>B. K. Senapati</title>
+      <link>/authors/b.-k.-senapati/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/b.-k.-senapati/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Lattaud</title>
+      <link>/authors/c.-lattaud/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-lattaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I. Barois</title>
+      <link>/authors/i.-barois/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/i.-barois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Kanyonyo</title>
+      <link>/authors/j.-kanyonyo/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-kanyonyo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Tondoh</title>
+      <link>/authors/j.-tondoh/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-tondoh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Brussaard</title>
+      <link>/authors/l.-brussaard/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-brussaard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Chapuis</title>
+      <link>/authors/l.-chapuis/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-chapuis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Brossard</title>
+      <link>/authors/m.-brossard/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-brossard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. D. Martinez</title>
+      <link>/authors/m.-d.-martinez/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-d.-martinez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. Hendrix</title>
+      <link>/authors/p.-hendrix/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-hendrix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. QuEnEhervE</title>
+      <link>/authors/p.-queneherve/</link>
+      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-queneherve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Albrecht</title>
+      <link>/authors/a.-albrecht/</link>
+      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-albrecht/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. Reversat</title>
+      <link>/authors/g.-reversat/</link>
+      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      <guid>/authors/g.-reversat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. Bernhard</title>
+      <link>/authors/p.-bernhard/</link>
+      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      <guid>/authors/p.-bernhard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Delaville</title>
+      <link>/authors/l.-delaville/</link>
+      <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-delaville/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. E. Tondoh</title>
+      <link>/authors/j.-e.-tondoh/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-e.-tondoh/</guid>
       <description></description>
     </item>
     
@@ -313,14 +2377,6 @@
       <link>/authors/j.-y.-laurent/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
       <guid>/authors/j.-y.-laurent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>J.-P. Rossi</title>
-      <link>/authors/j.-p.-rossi/</link>
-      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>/authors/j.-p.-rossi/</guid>
       <description></description>
     </item>
     

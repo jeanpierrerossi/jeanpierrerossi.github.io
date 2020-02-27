@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E. Huerta | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/e.-huerta/</link>
+      <atom:link href="/authors/e.-huerta/index.xml" rel="self" type="application/rss+xml" />
+    <description>E. Huerta</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>E. Huerta</title>
+      <link>/authors/e.-huerta/</link>
+    </image>
+    
+    <item>
+      <title>Soil properties inside earthworm patches and gaps in a tropical grassland (la Mancha, Veracruz, Mexico)</title>
+      <link>/publication/2006-01-01_rn163/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/2006-01-01_rn163/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

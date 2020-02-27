@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I. {van Halder} | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/i.-van-halder/</link>
+      <atom:link href="/authors/i.-van-halder/index.xml" rel="self" type="application/rss+xml" />
+    <description>I. {van Halder}</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>I. {van Halder}</title>
+      <link>/authors/i.-van-halder/</link>
+    </image>
+    
+    <item>
+      <title>Towards indicators of butterfly biodiversity based on a multiscale landscape description</title>
+      <link>/publication/2010-01-01_rn150/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/2010-01-01_rn150/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiscale spatial variation of the bark beetle Ips sexdentatus damage in a pine plantation forest (Landes de Gascogne, Southwestern France)</title>
+      <link>/publication/2009-01-01_rn152/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/2009-01-01_rn152/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive roadside sampling for bark beetle damage assessment</title>
+      <link>/publication/2007-01-01_rn159/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/2007-01-01_rn159/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

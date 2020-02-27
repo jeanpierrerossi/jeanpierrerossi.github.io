@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juan-Jose Jimenez | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/juan-jose-jimenez/</link>
+      <atom:link href="/authors/juan-jose-jimenez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Juan-Jose Jimenez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Juan-Jose Jimenez</title>
+      <link>/authors/juan-jose-jimenez/</link>
+    </image>
+    
+    <item>
+      <title>Soil environmental heterogeneity allows spatial co-occurrence of competitor earthworm species in a gallery forest of the Colombian `Llanos&#39;</title>
+      <link>/publication/2012-01-01_rn140/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-01-01_rn140/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A null-model analysis of the spatio-temporal distribution of earthworm species assemblages in Colombian grasslands</title>
+      <link>/publication/2009-01-01_rn155/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/2009-01-01_rn155/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stability of the spatio-temporal distribution and niche overlap in neotropical earthworm assemblages</title>
+      <link>/publication/2006-01-01_rn170/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/2006-01-01_rn170/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

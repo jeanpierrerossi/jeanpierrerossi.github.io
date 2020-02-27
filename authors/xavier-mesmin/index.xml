@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xavier Mesmin | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/xavier-mesmin/</link>
+      <atom:link href="/authors/xavier-mesmin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xavier Mesmin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Xavier Mesmin</title>
+      <link>/authors/xavier-mesmin/</link>
+    </image>
+    
+    <item>
+      <title>Ooctonus vulgatus (Hymenoptera, Mymaridae), a potential biocontrol agent to reduce populations of Philaenus spumarius (Hemiptera, Aphrophoridae) the main vector of Xylella fastidiosa in Europe</title>
+      <link>/publication/2020-01-01_rn99/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-01-01_rn99/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>\&#39;Evaluer le risque associ\&#39;e \`a des agents phytopathog\`enes \&#39;emergents transmis par des insectes : le cas de Xylella fastidiosa</title>
+      <link>/publication/2019-01-01_rn102/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_rn102/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

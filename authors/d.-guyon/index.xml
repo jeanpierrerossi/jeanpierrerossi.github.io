@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D. Guyon | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/d.-guyon/</link>
+      <atom:link href="/authors/d.-guyon/index.xml" rel="self" type="application/rss+xml" />
+    <description>D. Guyon</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 01 Jan 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>D. Guyon</title>
+      <link>/authors/d.-guyon/</link>
+    </image>
+    
+    <item>
+      <title>Multiscale spatial variation of the bark beetle Ips sexdentatus damage in a pine plantation forest (Landes de Gascogne, Southwestern France)</title>
+      <link>/publication/2009-01-01_rn152/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/2009-01-01_rn152/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive roadside sampling for bark beetle damage assessment</title>
+      <link>/publication/2007-01-01_rn159/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/2007-01-01_rn159/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

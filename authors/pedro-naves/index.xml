@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pedro Naves | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/pedro-naves/</link>
+      <atom:link href="/authors/pedro-naves/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pedro Naves</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Pedro Naves</title>
+      <link>/authors/pedro-naves/</link>
+    </image>
+    
+    <item>
+      <title>Multi-scale and multi-site resampling of study area in spatial genetics: implications for flying insect species</title>
+      <link>/publication/2017-01-01_rn109/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/2017-01-01_rn109/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

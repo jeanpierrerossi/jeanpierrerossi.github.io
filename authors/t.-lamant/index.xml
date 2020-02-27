@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T. Lamant | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/t.-lamant/</link>
+      <atom:link href="/authors/t.-lamant/index.xml" rel="self" type="application/rss+xml" />
+    <description>T. Lamant</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>T. Lamant</title>
+      <link>/authors/t.-lamant/</link>
+    </image>
+    
+    <item>
+      <title>A citywide survey of the pine processionary moth Thaumetopoea pityocampa spatial distribution in Orl\&#39;eans (France)</title>
+      <link>/publication/2016-01-01_rn112/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/2016-01-01_rn112/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A dataset on the inventory of coniferous urban trees in the city of Orl\&#39;eans (France)</title>
+      <link>/publication/2016-01-01_rn111/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/2016-01-01_rn111/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inventaire des arbres-hotes de la processionnaire du pin a l&#39;interface ville-foret-champs - An inventory of host tree species of the pine processionary moth at the interface between urban, forest and arable areas</title>
+      <link>/publication/2013-01-01_rn134/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/2013-01-01_rn134/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

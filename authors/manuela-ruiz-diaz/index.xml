@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manuela Ruiz-Diaz | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/manuela-ruiz-diaz/</link>
+      <atom:link href="/authors/manuela-ruiz-diaz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Manuela Ruiz-Diaz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Manuela Ruiz-Diaz</title>
+      <link>/authors/manuela-ruiz-diaz/</link>
+    </image>
+    
+    <item>
+      <title>Dissecting the Space-Time Structure of Tree-Ring Datasets Using the Partial Triadic Analysis</title>
+      <link>/publication/2014-01-01_rn129/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/2014-01-01_rn129/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

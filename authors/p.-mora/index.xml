@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P. Mora | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/p.-mora/</link>
+      <atom:link href="/authors/p.-mora/index.xml" rel="self" type="application/rss+xml" />
+    <description>P. Mora</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>P. Mora</title>
+      <link>/authors/p.-mora/</link>
+    </image>
+    
+    <item>
+      <title>Decreasing fallow duration in tropical slash-and-burn agriculture alters soil macroinvertebrate diversity: A case study in southern French Guiana</title>
+      <link>/publication/2010-01-01_rn151/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/2010-01-01_rn151/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abundance of biogenic structures of earthworms and termites in a mango orchard</title>
+      <link>/publication/2006-01-01_rn167/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/2006-01-01_rn167/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soil invertebrates and ecosystem services</title>
+      <link>/publication/2006-01-01_rn168/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/2006-01-01_rn168/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recovery of Soil Macrofauna Communities after Forest Clearance in Eastern Amazonia, Brazil</title>
+      <link>/publication/2005-01-01_rn172/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/2005-01-01_rn172/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

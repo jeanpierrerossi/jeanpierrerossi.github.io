@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>G. Genson | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/g.-genson/</link>
+      <atom:link href="/authors/g.-genson/index.xml" rel="self" type="application/rss+xml" />
+    <description>G. Genson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>G. Genson</title>
+      <link>/authors/g.-genson/</link>
+    </image>
+    
+    <item>
+      <title>Restriction-site associated DNA markers provide new insights into the evolutionary history of the bark beetle genus Dendroctonus</title>
+      <link>/publication/2019-01-01_rn104/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_rn104/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecular identification and ecological characteristics of two cryptic lineages within a cosmopolitan aphid pest, Brachycaudus helichrysi (Hemiptera: Aphididae)</title>
+      <link>/publication/2013-01-01_rn135/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/2013-01-01_rn135/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

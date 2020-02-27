@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. F. Ponge | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/j.-f.-ponge/</link>
+      <atom:link href="/authors/j.-f.-ponge/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. F. Ponge</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J. F. Ponge</title>
+      <link>/authors/j.-f.-ponge/</link>
+    </image>
+    
+    <item>
+      <title>Decreasing fallow duration in tropical slash-and-burn agriculture alters soil macroinvertebrate diversity: A case study in southern French Guiana</title>
+      <link>/publication/2010-01-01_rn151/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/2010-01-01_rn151/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carole Kerdelhué | Jean-Pierre Rossi - Inrae</title>
+    <title>Carole Kerdelhue | Jean-Pierre Rossi - Inrae</title>
     <link>/authors/carole-kerdelhue/</link>
       <atom:link href="/authors/carole-kerdelhue/index.xml" rel="self" type="application/rss+xml" />
-    <description>Carole Kerdelhué</description>
+    <description>Carole Kerdelhue</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Carole Kerdelhué</title>
+      <title>Carole Kerdelhue</title>
       <link>/authors/carole-kerdelhue/</link>
     </image>
     
@@ -33,6 +33,38 @@
       <link>/publication/journal-article/godefroid2016a/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/godefroid2016a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incongruent evolutionary histories of two parasitoids in the Mediterranean Basin: influence of host specialization and ecological characteristics</title>
+      <link>/publication/2015-01-01_rn127/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/2015-01-01_rn127/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Processionary Moths and Climate Change : An Update</title>
+      <link>/publication/2015-01-01_rn123/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/2015-01-01_rn123/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Processionary Moths and Climate Change : An Update</title>
+      <link>/publication/2015-01-01_rn25/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/2015-01-01_rn25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting the distribution of the two bark beetles Tomicus destruens and Tomicus piniperda in Europe and the Mediterranean region</title>
+      <link>/publication/2012-01-01_rn142/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-01-01_rn142/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>G. Brown | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/g.-brown/</link>
+      <atom:link href="/authors/g.-brown/index.xml" rel="self" type="application/rss+xml" />
+    <description>G. Brown</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Mon, 01 Jan 2001 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>G. Brown</title>
+      <link>/authors/g.-brown/</link>
+    </image>
+    
+    <item>
+      <title>Soil organic matter management in the tropics : why feeding the soil macrofauna?</title>
+      <link>/publication/2001-01-01_rn181/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/publication/2001-01-01_rn181/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecology of earthworm species with large environmental tolerance and/or extended distributions</title>
+      <link>/publication/1999-01-01_rn186/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/1999-01-01_rn186/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

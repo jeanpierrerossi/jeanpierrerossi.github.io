@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L. E. Paques | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/l.-e.-paques/</link>
+      <atom:link href="/authors/l.-e.-paques/index.xml" rel="self" type="application/rss+xml" />
+    <description>L. E. Paques</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>L. E. Paques</title>
+      <link>/authors/l.-e.-paques/</link>
+    </image>
+    
+    <item>
+      <title>Genetic differentiation of European larch along an altitudinal gradient in the French Alps</title>
+      <link>/publication/2015-01-01_rn122/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/2015-01-01_rn122/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

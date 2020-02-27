@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. Barot | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/s.-barot/</link>
+      <atom:link href="/authors/s.-barot/index.xml" rel="self" type="application/rss+xml" />
+    <description>S. Barot</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Mon, 01 Jan 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>S. Barot</title>
+      <link>/authors/s.-barot/</link>
+    </image>
+    
+    <item>
+      <title>Self-organization in a simple consumer--resource system, the example of earthworms</title>
+      <link>/publication/2007-01-01_rn161/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/2007-01-01_rn161/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soil invertebrates and ecosystem services</title>
+      <link>/publication/2006-01-01_rn168/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/2006-01-01_rn168/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

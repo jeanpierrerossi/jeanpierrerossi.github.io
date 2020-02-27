@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olivier Denux | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/olivier-denux/</link>
+      <atom:link href="/authors/olivier-denux/index.xml" rel="self" type="application/rss+xml" />
+    <description>Olivier Denux</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Olivier Denux</title>
+      <link>/authors/olivier-denux/</link>
+    </image>
+    
+    <item>
+      <title>Rediscovery of the endangered species &lt;i&gt;Harpalus flavescens&lt;/i&gt; (Coleoptera: Carabidae) in the Loire River</title>
+      <link>/publication/2017-01-01_rn110/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/2017-01-01_rn110/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing species distribution using Google Street View: A pilot study with the pine processionary moth</title>
+      <link>/publication/2013-01-01_rn133/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/2013-01-01_rn133/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

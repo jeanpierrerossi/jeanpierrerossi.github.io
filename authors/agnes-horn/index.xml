@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agnes Horn | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/agnes-horn/</link>
+      <atom:link href="/authors/agnes-horn/index.xml" rel="self" type="application/rss+xml" />
+    <description>Agnes Horn</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Agnes Horn</title>
+      <link>/authors/agnes-horn/</link>
+    </image>
+    
+    <item>
+      <title>Predicting the distribution of the two bark beetles Tomicus destruens and Tomicus piniperda in Europe and the Mediterranean region</title>
+      <link>/publication/2012-01-01_rn142/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-01-01_rn142/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

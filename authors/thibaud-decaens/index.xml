@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thibaud Decaens | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/thibaud-decaens/</link>
+      <atom:link href="/authors/thibaud-decaens/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thibaud Decaens</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Thibaud Decaens</title>
+      <link>/authors/thibaud-decaens/</link>
+    </image>
+    
+    <item>
+      <title>DNA barcoding reveals diversity patterns of earthworm communities in remote tropical forests of French Guiana</title>
+      <link>/publication/2016-01-01_rn117/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/2016-01-01_rn117/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soil environmental heterogeneity allows spatial co-occurrence of competitor earthworm species in a gallery forest of the Colombian `Llanos&#39;</title>
+      <link>/publication/2012-01-01_rn140/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-01-01_rn140/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A null-model analysis of the spatio-temporal distribution of earthworm species assemblages in Colombian grasslands</title>
+      <link>/publication/2009-01-01_rn155/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/2009-01-01_rn155/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative analysis of Andiodrilus pachoensis casts in forests and pastures of South-Eastern Amazon (Brazil)</title>
+      <link>/publication/2008-01-01_rn157/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/2008-01-01_rn157/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stability of the spatio-temporal distribution and niche overlap in neotropical earthworm assemblages</title>
+      <link>/publication/2006-01-01_rn170/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/2006-01-01_rn170/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatio--temporal structure of earthworm community and soil heterogeneity in a tropical pasture</title>
+      <link>/publication/2001-01-01_rn184/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>/publication/2001-01-01_rn184/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A. Albrecht | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/a.-albrecht/</link>
+      <atom:link href="/authors/a.-albrecht/index.xml" rel="self" type="application/rss+xml" />
+    <description>A. Albrecht</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 01 Jan 1997 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>A. Albrecht</title>
+      <link>/authors/a.-albrecht/</link>
+    </image>
+    
+    <item>
+      <title>Relationships between spatial pattern of the endogeic earthworm Polypheretima elongata and soil heterogeneity</title>
+      <link>/publication/1997-01-01_rn189/</link>
+      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      <guid>/publication/1997-01-01_rn189/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

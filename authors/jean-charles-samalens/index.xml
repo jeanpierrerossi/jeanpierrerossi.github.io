@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jean-Charles Samalens | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/jean-charles-samalens/</link>
+      <atom:link href="/authors/jean-charles-samalens/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jean-Charles Samalens</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Jean-Charles Samalens</title>
+      <link>/authors/jean-charles-samalens/</link>
+    </image>
+    
+    <item>
+      <title>Does landscape composition alter the spatiotemporal distribution of the pine processionary moth in a pine plantation forest?</title>
+      <link>/publication/2011-01-01_rn146/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/2011-01-01_rn146/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

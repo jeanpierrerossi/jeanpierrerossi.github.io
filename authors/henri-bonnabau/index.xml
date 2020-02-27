@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henri Bonnabau | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/henri-bonnabau/</link>
+      <atom:link href="/authors/henri-bonnabau/index.xml" rel="self" type="application/rss+xml" />
+    <description>Henri Bonnabau</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Henri Bonnabau</title>
+      <link>/authors/henri-bonnabau/</link>
+    </image>
+    
+    <item>
+      <title>Toxoplasmosis seroprevalence in urban rodents: a survey in Niamey, Niger</title>
+      <link>/publication/2013-01-01_rn137/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/2013-01-01_rn137/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

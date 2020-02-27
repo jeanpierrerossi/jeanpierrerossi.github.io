@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A. Moreno | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/a.-moreno/</link>
+      <atom:link href="/authors/a.-moreno/index.xml" rel="self" type="application/rss+xml" />
+    <description>A. Moreno</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>A. Moreno</title>
+      <link>/authors/a.-moreno/</link>
+    </image>
+    
+    <item>
+      <title>Ecology of earthworm species with large environmental tolerance and/or extended distributions</title>
+      <link>/publication/1999-01-01_rn186/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/1999-01-01_rn186/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

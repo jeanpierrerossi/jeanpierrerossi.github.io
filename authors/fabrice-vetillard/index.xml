@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabrice Vetillard | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/fabrice-vetillard/</link>
+      <atom:link href="/authors/fabrice-vetillard/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fabrice Vetillard</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Mon, 01 Jan 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Fabrice Vetillard</title>
+      <link>/authors/fabrice-vetillard/</link>
+    </image>
+    
+    <item>
+      <title>The spatial distribution of birds and carabid beetles in pine plantation forests: the role of landscape composition and structure</title>
+      <link>/publication/2007-01-01_rn162/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/2007-01-01_rn162/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
