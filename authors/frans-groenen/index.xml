@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frans Groenen | Jean-Pierre Rossi - Inra</title>
+    <link>/authors/frans-groenen/</link>
+      <atom:link href="/authors/frans-groenen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Frans Groenen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 28 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Frans Groenen</title>
+      <link>/authors/frans-groenen/</link>
+    </image>
+    
+    <item>
+      <title>Current and future distribution of the invasive oak processionary moth</title>
+      <link>/publication/journal-article/godefroid2019b/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/godefroid2019b/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

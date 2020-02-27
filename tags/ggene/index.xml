@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ggene | Jean-Pierre Rossi - Inra</title>
+    <link>/tags/ggene/</link>
+      <atom:link href="/tags/ggene/index.xml" rel="self" type="application/rss+xml" />
+    <description>ggene</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 04 Sep 2016 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>ggene</title>
+      <link>/tags/ggene/</link>
+    </image>
+    
+    <item>
+      <title>Geostatistics with genetic data : the R package `ggene` (part 3: anisotropy)</title>
+      <link>/2016/09/04/ggene4/</link>
+      <pubDate>Sun, 04 Sep 2016 21:13:14 -0500</pubDate>
+      <guid>/2016/09/04/ggene4/</guid>
+      <description>
+
+
+&lt;p&gt;This third post about geostatistical analysis of genetic data deals with anisotropy. Anisotropy is the property of being directionally dependent. It occurs if the spatial pattern differs, when measured along different axes, either in extent or intensity (Goovaerts, 1997).&lt;/p&gt;
+&lt;p&gt;We illustrate here how the package &lt;code&gt;ggene&lt;/code&gt; can be used to compute directional variograms and variogram maps.&lt;/p&gt;
+&lt;div id=&#34;directional-variograms&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Directional variograms&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;svariog&lt;/code&gt; computes omnidirectional variograms by default. The arguments &lt;code&gt;direction&lt;/code&gt;, &lt;code&gt;tolerance&lt;/code&gt; and &lt;code&gt;unit.angle&lt;/code&gt; define the main direction, the tolerance and the unit of measure for the angle.&lt;/p&gt;
+&lt;p&gt;We use the simulated dataset &lt;code&gt;aniso&lt;/code&gt; to illustrate this feature :&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(aniso)
+va &amp;lt;- svariog(X=aniso, plot=TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-04-ggene04_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The omni-directional variogram reveals a clear spatial genetic structure. We then consider 4 directions : 0, 45, 90 and 135 degrees and use a tolerance of 22.5° in each case.&lt;/p&gt;
+&lt;p&gt;Does the spatial genetic structure differ according to direction?&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# compute variograms in different directions
+d0_225 &amp;lt;- svariog(X=aniso,direction=0, tolerance=22.5, unit.angle=&amp;quot;degrees&amp;quot;)
+d45_225 &amp;lt;- svariog(X=aniso,direction=45, tolerance=22.5, unit.angle=&amp;quot;degrees&amp;quot;)
+d90_225 &amp;lt;- svariog(X=aniso,direction=90, tolerance=22.5, unit.angle=&amp;quot;degrees&amp;quot;)
+d135_225 &amp;lt;- svariog(X=aniso,direction=135, tolerance=22.5, unit.angle=&amp;quot;degrees&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We then plot the resulting variograms:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(va$svario$u, va$svario$v, type=&amp;quot;b&amp;quot;, ylim=range(c(va$svario$v, d0_225$svario$v, d45_225$svario$v, d90_225$svario$v, d135_225$svario$v)) , xlab=&amp;quot;distance&amp;quot;, ylab=&amp;quot;semivariance&amp;quot;)
+
+points(d0_225$svario$u, d0_225$svario$v, type=&amp;quot;b&amp;quot;, lty=2)
+points(d45_225$svario$u, d45_225$svario$v, type=&amp;quot;b&amp;quot;, col=&amp;quot;red&amp;quot;, lty=2)
+points(d90_225$svario$u, d90_225$svario$v, type=&amp;quot;b&amp;quot;, col=&amp;quot;blue&amp;quot;, lty=2)
+points(d135_225$svario$u, d135_225$svario$v, type=&amp;quot;b&amp;quot;, col=&amp;quot;green&amp;quot;, lty=2)
+
+legend(&amp;quot;topleft&amp;quot;, legend=c(&amp;quot;omnidirectional&amp;quot;, expression(0 * degree), 
+ expression(45 * degree), expression(90 * degree), 
+ expression(135 * degree)), lty=c(1,2,2,2,2,2), 
+ col=c(&amp;quot;black&amp;quot;,&amp;quot;black&amp;quot;,&amp;quot;red&amp;quot;,&amp;quot;blue&amp;quot;,&amp;quot;green&amp;quot;), bty=&amp;quot;n&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-04-ggene04_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The variogram computed in the direction 45° differs from the omni-directional variogram as well as from the other directional variograms.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;variogram-maps&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Variogram maps&lt;/h1&gt;
+&lt;p&gt;Directional variograms are useful to describe the spatial variation in a given direction but variogram maps are more efficient to search for anisotropy when no &lt;em&gt;a priori&lt;/em&gt; knowledge of the direction itself is available (Isaaks &amp;amp; Srivastava, 1989; Goovaerts, 1997).&lt;/p&gt;
+&lt;p&gt;In &lt;code&gt;ggene&lt;/code&gt; variogram maps are computed using the function &lt;code&gt;svarmap&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(aniso)
+map &amp;lt;- svarmap(X=aniso,cutoff=20, width=1)
+plot(map)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-04-ggene04_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;There is a clear directionality in the semivariance values that are lower in the direction 45°.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;p&gt;Goovaerts, P., 1997. Geostatistics for Natural Resources Evaluation. Oxford University Press&lt;/p&gt;
+&lt;p&gt;Isaaks, E.H., Srivastava, R.M., 1989. Applied geostatistics. Oxford University Press.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Managing missing values in `ggene`</title>
+      <link>/2016/09/03/ggene3/</link>
+      <pubDate>Sat, 03 Sep 2016 21:13:14 -0500</pubDate>
+      <guid>/2016/09/03/ggene3/</guid>
+      <description>
+
+
+&lt;p&gt;Missing values are a big pain in the arse because they are so common in microsatellite datasets that removing them sometimes amounts to loose all the information (individuals or alleles).&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ggene&lt;/code&gt; cannot handle NAs and thus users must remove individuals/alleles with missing data or convert them to something… else!&lt;/p&gt;
+&lt;p&gt;One common strategy is to replace NAs by the mean value of the corresponding column or by 0 (see the package adegenet). I won’t discuss these options and simply provide a simple solution to users who cannot remove NAs in their data and have to replace them.&lt;/p&gt;
+&lt;p&gt;We define below two functions &lt;code&gt;NAtoMean&lt;/code&gt; and &lt;code&gt;NAto0&lt;/code&gt; which replace NA by the mean of the column (allele) or by 0, respectively.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NAtoMean &amp;lt;- function(x){
+    x[is.na(x)] &amp;lt;- mean(x, na.rm = TRUE)
+    return(x)}
+
+NAto0 &amp;lt;- function(x){ 
+    x[is.na(x)] &amp;lt;- 0
+    return(x)}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we create a missing data in the &lt;code&gt;$tab&lt;/code&gt; of a ggene object:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(crypho)
+crypho$tab[1,1]
+## [1] 0
+crypho$tab[1,1] &amp;lt;- NA
+crypho$tab[1,1]
+## [1] NA&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If we try to compute the variogram with this altered dataset we get an error message:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;var &amp;lt;- svariog(crypho, plot=TRUE)
+## Error in FUN(X[[i]], ...): NA/NaN/Inf dans un appel à une fonction externe (argument 4)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Replacing NAs by the mean of the column in the data table is achieved using &lt;code&gt;apply&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;crypho$tab &amp;lt;- apply(X=crypho$tab, MARGIN=2, FUN=NAtoMean)
+crypho$tab[1,1]
+## [1] 0.2872727&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;svariog&lt;/code&gt; can now compute the variogram:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;var &amp;lt;- svariog(crypho, plot=TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-03-ggene03_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;NAtoMean&lt;/code&gt; and &lt;code&gt;NAto0&lt;/code&gt; can easily be customised.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geostatistics with genetic data : the R package `ggene` (part 2: variogram envelop)</title>
+      <link>/2016/09/02/ggene2/</link>
+      <pubDate>Fri, 02 Sep 2016 21:13:14 -0500</pubDate>
+      <guid>/2016/09/02/ggene2/</guid>
+      <description>
+
+
+&lt;p&gt;In this second item of a set of posts introducing the package &lt;code&gt;ggene&lt;/code&gt;, we address how departure form spatial randomness can be examined.&lt;/p&gt;
+&lt;div id=&#34;variogram-envelop&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Variogram envelop&lt;/h1&gt;
+&lt;p&gt;The function &lt;code&gt;randsvariog&lt;/code&gt; allows to compute the variogram envelope by means of randomizations. Each randomization corresponds to a random reallocation of genotypes among individuals followed by the recomputation of the variogram. Readers are referred to Legendre and Legendre (1998) for details about randomization tests in the context of spatial analyses. &lt;code&gt;randsvariog&lt;/code&gt; randomizes the genetic data associated to each individual but genomes are not changed, only their spatial distribution are permuted between individuals, hence the sampling design is kept unchanged.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;first-example&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;First example&lt;/h1&gt;
+&lt;p&gt;We illustrate this feature using the dataset &lt;code&gt;larix1350&lt;/code&gt; where a set of 189 trees were genotyped (Nardin et al. 2015). Can we detect a spatial structure within this dataset?&lt;/p&gt;
+&lt;p&gt;First we load the dataset and have a look at the sampling design.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(larix1300)
+# check sample spatial features
+plot(larix2300$coord[,1],larix2300$coord[,2], asp=1, xlab=&amp;quot;x&amp;quot;, ylab=&amp;quot;y&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-02-ggene02_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Then we compute the variogram and plot it. The variogram shows very little structuration, if any.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# compute variogram
+va &amp;lt;- svariog(X=larix1350, uvec=distlag(dist=larix1350$coord, dmin=0, distance.lag=3), plot=TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-02-ggene02_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We now compute the statistical envelop using &lt;code&gt;randsvariog&lt;/code&gt; with a limited number of randomizations in this simple example (a large number is otherwise necessary).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# compute statistical envelope
+env &amp;lt;- randsvariog(var=va, X=larix1350, nsim=30, bounds=c(0.025, 0.975), save.sim=FALSE)
+## ..............................
+## done
+
+# plot results
+plot(env$svario$u, env$svario$v, ylim=range(env$env), xlab=&amp;quot;distance (m)&amp;quot;,
+     ylab=&amp;quot;semivariance&amp;quot;)
+points(env$svario$u, env$env[,1], type=&amp;quot;l&amp;quot;)
+points(env$svario$u, env$env[,2], type=&amp;quot;l&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-02-ggene02_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The statistical envelope indicates that most of the semivariance estimates lie between the 0.025 and 0.975 quantiles showing the absence of spatial genetic structure.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;second-example&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Second example&lt;/h1&gt;
+&lt;p&gt;In this second example we perform similar analyses using the dataset &lt;code&gt;larix2300&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(larix2300)
+
+# compute variogram
+va &amp;lt;- svariog(X=larix2300, uvec=distlag(dist=larix2300$coord, dmin=0,
+  distance.lag=3), plot=FALSE)
+
+# compute statistical envelope
+env &amp;lt;- randsvariog(var=va, X=larix2300, nsim=30, bounds=c(0.025, 0.975),
+  save.sim=FALSE)
+## ..............................
+## done
+
+# plot results
+plot(env$svario$u, env$svario$v, ylim=range(env$env), xlab=&amp;quot;distance (m)&amp;quot;,
+     ylab=&amp;quot;semivariance&amp;quot;)
+points(env$svario$u, env$env[,1], type=&amp;quot;l&amp;quot;)
+points(env$svario$u, env$env[,2], type=&amp;quot;l&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-02-ggene02_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In this case, the variogram indicates a clear departure from spatial randomness.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;p&gt;Legendre, P., Legendre, L., 2012. Numerical Ecology. Elsevier.&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Nardin, M., Musch, B., Rousselle, Y., Guérin, V., Sanchez, L., Rossi, J.-P., Gerber, S., Marin, S., Pâques, L.E., Rozenberg, P., 2015. Genetic differentiation of European larch along an altitudinal gradient in the French Alps. Annals of Forest Science 72, 517-527.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geostatistics with genetic data : the R package ggene (part 1)</title>
+      <link>/2016/09/01/ggene1/</link>
+      <pubDate>Thu, 01 Sep 2016 21:13:14 -0500</pubDate>
+      <guid>/2016/09/01/ggene1/</guid>
+      <description>
+
+
+&lt;p&gt;Geostatistics is a branch of statistics focusing on spatial and spatiotemporal analyses. It was originally developed in mining geology and slowly percolated in numerous fields of life sciences such as soil science, soil ecology, oceanography and many more.&lt;/p&gt;
+&lt;p&gt;In 2005, Wagner et al. introduced the use of variogram (an important structure function in geostatistics) with microsatellite datasets but to our knowledge neither software nor R package were available to compute variograms or perform any of the main operations of geostatitics such as model fitting or anisotropy analysis.&lt;/p&gt;
+&lt;p&gt;We therefore developed the package ggene. It was released in early June 2016 through R-Forge and is currently available from &lt;a href=&#34;https://r-forge.r-project.org/R/?group_id=2143&#34; class=&#34;uri&#34;&gt;https://r-forge.r-project.org/R/?group_id=2143&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ggene allows the computation variogram of gene diversity and model fitting. In addition it offers two techniques to search for anisotropies in spatial genetic structure namely directional variograms and variogram maps. Both haploid and diploid datasets can be analysed and the package provides some functions allowing to weighting for repeated genotypes.&lt;/p&gt;
+&lt;p&gt;The purpose of the present post is to give an overview of the package and show how to install ggene. The package comes with 2 vignettes and several datasets that make learning easier if not attractive…&lt;/p&gt;
+&lt;div id=&#34;downloading-and-installation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Downloading and installation&lt;/h1&gt;
+&lt;p&gt;At the present time, ggene is not available from R CRAN and the current version can be installed from the R-Forge repository.&lt;/p&gt;
+&lt;p&gt;Mac OS users:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;ggene&amp;quot;, repos=&amp;quot;http://R-Forge.R-project.org&amp;quot;, type=&amp;quot;source&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Windows or Linux users:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;ggene&amp;quot;, repos=&amp;quot;http://R-Forge.R-project.org&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once ggene is installed you can visualize the thematic documentation by typing in the R console:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggene)
+vignette(&amp;quot;ggene_introduction&amp;quot;)
+vignette(&amp;quot;ggene_datasets&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;reading-haploid-dataset&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Reading haploid dataset&lt;/h1&gt;
+&lt;p&gt;The chunk of code below shows how to read both coordinates and microsatellite data for an haploid dataset.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggene)
+# read genetic data
+sim &amp;lt;- read.csv(system.file(&amp;quot;extdata/sim_01.csv&amp;quot;, package=&amp;quot;ggene&amp;quot;), header=FALSE)
+# read spatial coordinates
+xy.sim &amp;lt;- read.csv(system.file(&amp;quot;extdata/xysim_01.csv&amp;quot;, package=&amp;quot;ggene&amp;quot;), header=FALSE)
+# create a ggene object
+dat.sim &amp;lt;- tab2geo(X=sim, coord=xy.sim)
+## The number of individuals is  625 
+## The number of locus is  20&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;reading-diploid-dataset&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Reading diploid dataset&lt;/h1&gt;
+&lt;p&gt;The function &lt;code&gt;gene2geo&lt;/code&gt; operates the same way but relies on a &lt;code&gt;genind&lt;/code&gt; object which are created with the package &lt;code&gt;adegenet&lt;/code&gt; from various data input formats such as &lt;code&gt;genepop&lt;/code&gt; or &lt;code&gt;genetix&lt;/code&gt; (see the documentation of the package for details). &lt;em&gt;Note that &lt;code&gt;ggene&lt;/code&gt; has no function allowing to read data directly from files.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Here is an example where we firstly read the genetic data from a file in &lt;code&gt;genepop&lt;/code&gt; format:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(adegenet)
+dat &amp;lt;- read.genepop(system.file(&amp;quot;extdata/sim_03.gen&amp;quot;, package=&amp;quot;ggene&amp;quot;), ncode = 3)
+## 
+##  Converting data from a Genepop .gen file to a genind object... 
+## 
+## 
+## File description:  Simulated data 
+## 
+## ...done.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The resulting object has various characteristics:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dat
+## /// GENIND OBJECT /////////
+## 
+##  // 625 individuals; 20 loci; 502 alleles; size: 1.3 Mb
+## 
+##  // Basic content
+##    @tab:  625 x 502 matrix of allele counts
+##    @loc.n.all: number of alleles per locus (range: 15-36)
+##    @loc.fac: locus factor for the 502 columns of @tab
+##    @all.names: list of allele names for each locus
+##    @ploidy: ploidy of each individual  (range: 2-2)
+##    @type:  codom
+##    @call: read.genepop(file = system.file(&amp;quot;extdata/sim_03.gen&amp;quot;, package = &amp;quot;ggene&amp;quot;), 
+##     ncode = 3)
+## 
+##  // Optional content
+##    @pop: population of each individual (group size range: 625-625)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There are 625 individuals.&lt;/p&gt;
+&lt;p&gt;Let’s now read the geographic coordinates:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;xy &amp;lt;- read.csv(system.file(&amp;quot;extdata/xysim_01.csv&amp;quot;, package=&amp;quot;ggene&amp;quot;), header=FALSE)
+dim(xy)
+## [1] 625   2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The package &lt;code&gt;ggene&lt;/code&gt; requires objects of class &lt;code&gt;ggene&lt;/code&gt; that are created using the function &lt;code&gt;gene2geo&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data &amp;lt;- gene2geo(X=dat, coord=xy)
+## The number of individuals is  625 
+## The number of locus is  20
+class(data)
+## [1] &amp;quot;list&amp;quot;  &amp;quot;ggene&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;your-first-variogram&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Your first variogram!&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;svariog&lt;/code&gt; computes the variogram for the gene diversity and also returns the locus-by-locus semivariance and the conventional estimator of the gene diversity (Wagner et al. 2005).&lt;/p&gt;
+&lt;p&gt;The chunks of code below shows how to compute the variogram for the &lt;code&gt;larix&lt;/code&gt; dataset (Nardin et al. 2015) using default options. It is good practice to check the sampling scheme before any analysis:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(larix2300)
+# check sample spatial features
+plot(larix2300$coord[,1],larix2300$coord[,2], asp=1, xlab=&amp;quot;x&amp;quot;, ylab=&amp;quot;y&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-01-ggene01_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;code&gt;plot&lt;/code&gt; is set to &lt;code&gt;TRUE&lt;/code&gt; &lt;code&gt;svariog&lt;/code&gt; produces a plot of the variogram. The dashed line shows the conventional estimator of the gene diversity.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# compute variogram
+va &amp;lt;- svariog(X=larix2300, plot=TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-01-ggene01_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The distance interval can easily be changed to explore how the variogram is affected. Increasing to distance interval tends to smooth out the signal and to better recognize the large-scale patterns. This is easily done using the function &lt;code&gt;distlag&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;d &amp;lt;- distlag(dist=larix2300$coord, dmin=0, distance.lag=1)
+d
+##  [1]  0.5  1.5  2.5  3.5  4.5  5.5  6.5  7.5  8.5  9.5 10.5 11.5 12.5 13.5
+## [15] 14.5 15.5 16.5 17.5 18.5 19.5 20.5 21.5 22.5 23.5 24.5 25.5 26.5 27.5
+## [29] 28.5 29.5 30.5 31.5 32.5 33.5 34.5 35.5 36.5 37.5 38.5 39.5 40.5 41.5
+## [43] 42.5 43.5 44.5 45.5 46.5 47.5 48.5 49.5 50.5 51.5 52.5 53.5 54.5 55.5
+## [57] 56.5 57.5 58.5 59.5 60.5 61.5 62.5 63.5 64.5 65.5 66.5 67.5 68.5 69.5
+## [71] 70.5 71.5 72.5 73.5 74.5 75.5 76.5 77.5 78.5 79.5 80.5 81.5 82.5 83.5
+## [85] 84.5 85.5 86.5 87.5 88.5 89.5 90.5 91.5 92.5 93.5 94.5 95.5 96.5 97.5
+## [99] 98.5&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The variogram is computed with &lt;code&gt;uvec=d&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;va &amp;lt;- svariog(X=larix2300, uvec=d, plot=TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-09-01-ggene01_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The resulting variogram reveals a very clear spatial genetic structure mostly occuring at distances &amp;lt; ca. 18 m.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;References:&lt;/h1&gt;
+&lt;p&gt;Nardin, M., Guerin, V., Musch, B., Rousselle, Y., Sanchez, L., Rossi, J.-P., Gerber, S., Paques, L., Rozenberg, P. 2015. Genetic differentiation of European larch along an altitudinal gradient in the French Alps. Annals of Forest Science 72, 517-527.&lt;/p&gt;
+&lt;p&gt;Journel, A.G., and C.J. Huijbregts. 1978. Mining Geostatistics. Academic Press.&lt;/p&gt;
+&lt;p&gt;Wagner, H.H., R. Holderegger, S. Werth, F. Gugerli, S.E. Hoebee, and C. Scheidegger. 2005. Variogram Analysis of the Spatial Genetic Structure of Continuous Populations Using Multilocus Microsatellite Data. Genetics 169: 1739–52.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

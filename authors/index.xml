@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Jean-Pierre Rossi - Inra</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Je suis directeur de recherche à l&amp;rsquo;Inra de Montpellier. Mes domaines de recherche sont l’entomologie forestière et agricole avec un focus particulier sur la dynamique spatiale des ravageurs dans les paysages.&lt;/p&gt;
+
+&lt;p&gt;Je suis par ailleurs un utilisateur de R depuis 15 ans et ce site sera en partie consacré à ce langage de programmation dont l’actualité est très riche.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Welcome!&lt;/em&gt;
+&lt;em&gt;I am a senior scientist at Inra in Montpellier. My research interests cover forest and crop entomology with a special focus on landscape and spatial dynamics of pests.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I have been an avid R user for circa 15 years and this site is logically partly devoted to this powerful programming language.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Carole Kerdelhué</title>
+      <link>/authors/carole-kerdelhue/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/carole-kerdelhue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christian Burban</title>
+      <link>/authors/christian-burban/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/christian-burban/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laure Sauné</title>
+      <link>/authors/laure-saune/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/laure-saune/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manuela Branco</title>
+      <link>/authors/manuela-branco/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/manuela-branco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raphaël Leblois</title>
+      <link>/authors/raphael-leblois/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/raphael-leblois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Susana Rocha</title>
+      <link>/authors/susana-rocha/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/susana-rocha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frans Groenen</title>
+      <link>/authors/frans-groenen/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/frans-groenen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin Godefroid</title>
+      <link>/authors/martin-godefroid/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/martin-godefroid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nicolas Meurisse</title>
+      <link>/authors/nicolas-meurisse/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/nicolas-meurisse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Burban C.</title>
+      <link>/authors/burban-c./</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/burban-c./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chartois M.</title>
+      <link>/authors/chartois-m./</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/chartois-m./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cruaud A.</title>
+      <link>/authors/cruaud-a./</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/cruaud-a./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Farigoule P.</title>
+      <link>/authors/farigoule-p./</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/farigoule-p./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Godefroid M.</title>
+      <link>/authors/godefroid-m./</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/godefroid-m./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesmin X.</title>
+      <link>/authors/mesmin-x./</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/mesmin-x./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rasplus J.-Y</title>
+      <link>/authors/rasplus-j.-y/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/rasplus-j.-y/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streito J.-C.</title>
+      <link>/authors/streito-j.-c./</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/streito-j.-c./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astrid Cruaud</title>
+      <link>/authors/astrid-cruaud/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/astrid-cruaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Claude Streito</title>
+      <link>/authors/jean-claude-streito/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-claude-streito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Yves Rasplus</title>
+      <link>/authors/jean-yves-rasplus/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-yves-rasplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gauthier Dobigny</title>
+      <link>/authors/gauthier-dobigny/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/gauthier-dobigny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anne-Alicia Gonzalez</title>
+      <link>/authors/anne-alicia-gonzalez/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/anne-alicia-gonzalez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Marc Thuillier</title>
+      <link>/authors/jean-marc-thuillier/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-marc-thuillier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sabine Nidelet</title>
+      <link>/authors/sabine-nidelet/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/sabine-nidelet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sylvain Santoni</title>
+      <link>/authors/sylvain-santoni/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/sylvain-santoni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ibrahima Kadaouré</title>
+      <link>/authors/ibrahima-kadaoure/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/ibrahima-kadaoure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jérôme Rousselet</title>
+      <link>/authors/jerome-rousselet/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/jerome-rousselet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thierry Lamant</title>
+      <link>/authors/thierry-lamant/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/thierry-lamant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vanessa Imbault</title>
+      <link>/authors/vanessa-imbault/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/vanessa-imbault/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helena Santos</title>
+      <link>/authors/helena-santos/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/helena-santos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maria-Rosa Paiva</title>
+      <link>/authors/maria-rosa-paiva/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/maria-rosa-paiva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Suzanna Rocha</title>
+      <link>/authors/suzanna-rocha/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/suzanna-rocha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alain Roques</title>
+      <link>/authors/alain-roques/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/alain-roques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jacques Garcia</title>
+      <link>/authors/jacques-garcia/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/jacques-garcia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. L. Chotte</title>
+      <link>/authors/j.-l.-chotte/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-l.-chotte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Y. Laurent</title>
+      <link>/authors/j.-y.-laurent/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-y.-laurent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J.-P. Rossi</title>
+      <link>/authors/j.-p.-rossi/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-p.-rossi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

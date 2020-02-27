@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christian Burban | Jean-Pierre Rossi - Inra</title>
+    <link>/authors/christian-burban/</link>
+      <atom:link href="/authors/christian-burban/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christian Burban</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Christian Burban</title>
+      <link>/authors/christian-burban/</link>
+    </image>
+    
+    <item>
+      <title>From sympatry to parapatry: a rapid change in the spatial context of incipient allochronic speciation</title>
+      <link>/publication/journal-article/burban2019/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/burban2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate constrains range expansion of an allochronic population of the pine processionary moth</title>
+      <link>/publication/journal-article/godefroid2016a/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/godefroid2016a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

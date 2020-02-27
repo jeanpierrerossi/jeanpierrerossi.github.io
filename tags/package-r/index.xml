@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>package R | Jean-Pierre Rossi - Inra</title>
+    <link>/tags/package-r/</link>
+      <atom:link href="/tags/package-r/index.xml" rel="self" type="application/rss+xml" />
+    <description>package R</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 29 Aug 2019 21:14:14 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>package R</title>
+      <link>/tags/package-r/</link>
+    </image>
+    
+    <item>
+      <title>Quels packages R installer avant l&#39;école chercheur &#39;Paysage et santé des plantes&#39; ?</title>
+      <link>/2019/08/29/installecp2complement/</link>
+      <pubDate>Thu, 29 Aug 2019 21:14:14 -0500</pubDate>
+      <guid>/2019/08/29/installecp2complement/</guid>
+      <description>
+
+
+&lt;p&gt;Vous allez participer à l’école chercheur &lt;a href=&#34;http://jobs.inra.fr/Evenements/Ecole-chercheurs-paysage&#34;&gt;“Paysage et santé des plantes : Analyser, comprendre et modéliser les processus écologiques en jeu”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Il est fortement conseillé de mettre à jour le logiciel R pour disposer de la &lt;a href=&#34;https://www.r-project.org/&#34;&gt;version 3.6.1 (Action of the Toes)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nous vous conseillons également d’installer ou de mettre à jour les packages R suivants :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ade4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ape&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;briskaR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dismo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;caret&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FeedbackTS&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gbm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;geoR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ggplot2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gstat&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;landscapemetrics&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;landscapeR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;landsepi&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MetaLandSim&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NLMR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;maptools&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mvtnorm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;plspm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RandomFields&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;raster&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rgdal&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SDMTools&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;splancs&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il est également nécessaire d’installer le package &lt;code&gt;ecpaysage2&lt;/code&gt; développé pour l’école. Ceci est expliqué dans un &lt;a href=&#34;/2019/08/29/installecp2/&#34;&gt;précédent billet&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installer le package R ecpaysage2</title>
+      <link>/2019/08/29/installecp2/</link>
+      <pubDate>Thu, 29 Aug 2019 21:13:14 -0500</pubDate>
+      <guid>/2019/08/29/installecp2/</guid>
+      <description>
+
+
+&lt;p&gt;Le package &lt;code&gt;ecpaysage2&lt;/code&gt; a été développé spécialement pour l’école chercheur intitulée &lt;a href=&#34;http://jobs.inra.fr/Evenements/Ecole-chercheurs-paysage&#34;&gt;“Paysage et santé des plantes : Analyser, comprendre et modéliser les processus écologiques en jeu”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Le package contient des données qui seront utilisées durant l’école ainsi qu’une vignette fournissant des informations utiles.&lt;/p&gt;
+&lt;p&gt;Ce billet explique comment installer le package à partir du site &lt;a href=&#34;https://r-forge.r-project.org/&#34;&gt;R-Forge&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dans la console R tapez :&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;ecpaysage2&amp;quot;, repos=&amp;quot;http://R-Forge.R-project.org&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Après avoir chargé &lt;code&gt;ecpaysage2&lt;/code&gt; vous aurez accès à la vignette en tapant :&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ecpaysage2)
+vignette(package=&amp;quot;ecpaysage2&amp;quot;)
+vignette(&amp;#39;ecpaysage2_intro&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

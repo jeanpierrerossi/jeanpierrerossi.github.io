@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vector insects | Jean-Pierre Rossi - Inra</title>
+    <link>/tags/vector-insects/</link>
+      <atom:link href="/tags/vector-insects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vector insects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 13 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Vector insects</title>
+      <link>/tags/vector-insects/</link>
+    </image>
+    
+    <item>
+      <title>Evaluer le risque associé à des agents phytopathogènes émergents transmis par des insectes : le cas de Xylella fastidiosa</title>
+      <link>/publication/journal-article/rossi2019b/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/rossi2019b/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

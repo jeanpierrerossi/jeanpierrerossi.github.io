@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xylella fastidiosa fastidiosa | Jean-Pierre Rossi - Inra</title>
+    <link>/tags/xylella-fastidiosa-fastidiosa/</link>
+      <atom:link href="/tags/xylella-fastidiosa-fastidiosa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xylella fastidiosa fastidiosa</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Xylella fastidiosa fastidiosa</title>
+      <link>/tags/xylella-fastidiosa-fastidiosa/</link>
+    </image>
+    
+    <item>
+      <title>Xylella fastidiosa: climate suitability of European continent</title>
+      <link>/publication/journal-article/godefroid2019a/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/godefroid2019a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

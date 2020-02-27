@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Y. Laurent | Jean-Pierre Rossi - Inra</title>
+    <link>/authors/j.-y.-laurent/</link>
+      <atom:link href="/authors/j.-y.-laurent/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Y. Laurent</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Jan 1995 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>J. Y. Laurent</title>
+      <link>/authors/j.-y.-laurent/</link>
+    </image>
+    
+    <item>
+      <title>A modified hydropneumo-elutriation apparatus for quantitative root separation from large soil core samples</title>
+      <link>/publication/1995-01-01_chotte1995aa/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      <guid>/publication/1995-01-01_chotte1995aa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
