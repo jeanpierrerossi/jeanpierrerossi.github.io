@@ -20,7 +20,7 @@
       <description>
 
 
-&lt;p&gt;I recently discovered the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;fishualize&lt;/code&gt; by Nina Schiettekatte, Simon Brandl and Jordan Casey. This package is amazing ! The idea is that you use a set of colors taken from the picture of a fish species. Note that apparently, authors concentrate on teleost fishes although some chondrichthyan are present.&lt;/p&gt;
+&lt;p&gt;I recently discovered the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;fishualize&lt;/code&gt; by Nina Schiettekatte, Simon Brandl and Jordan Casey. This package is amazing ! The idea is that you use a set of colors taken from the picture of a fish species. Note that apparently, authors concentrate on teleost fishes although some chondrichthyans are present.&lt;/p&gt;
 &lt;p&gt;You can see the available color scales :&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(fishualize)
 vignette(&amp;quot;overview_colors&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
