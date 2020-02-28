@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 28 Feb 2020 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 28 Feb 2020 01:01:01 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,7 +15,7 @@
     <item>
       <title>biocontrôle</title>
       <link>/tags/biocontrole/</link>
-      <pubDate>Fri, 28 Feb 2020 21:13:14 -0500</pubDate>
+      <pubDate>Fri, 28 Feb 2020 01:01:01 +0000</pubDate>
       <guid>/tags/biocontrole/</guid>
       <description></description>
     </item>
