@@ -5,7 +5,7 @@
     <link>/categories/</link>
       <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 26 Feb 2020 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 28 Feb 2020 21:13:14 -0500</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Categories</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Wed, 26 Feb 2020 21:13:14 -0500</pubDate>
-      <guid>/categories/r/</guid>
+      <title>Santé des plantes</title>
+      <link>/categories/sante-des-plantes/</link>
+      <pubDate>Fri, 28 Feb 2020 21:13:14 -0500</pubDate>
+      <guid>/categories/sante-des-plantes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Santé des plantes</title>
-      <link>/categories/sante-des-plantes/</link>
-      <pubDate>Wed, 27 Nov 2019 21:13:14 -0500</pubDate>
-      <guid>/categories/sante-des-plantes/</guid>
+      <title>R</title>
+      <link>/categories/r/</link>
+      <pubDate>Wed, 26 Feb 2020 21:13:14 -0500</pubDate>
+      <guid>/categories/r/</guid>
       <description></description>
     </item>
     
