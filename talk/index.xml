@@ -5,12 +5,36 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 18 Oct 2019 13:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>Risks to plant health. France experience in tackling emerging plant pests and diseases</title>
+      <link>/talk/beijing2019/</link>
+      <pubDate>Fri, 18 Oct 2019 13:00:00 +0000</pubDate>
+      <guid>/talk/beijing2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluer le risque associé à des agents phytopathogènes émergents transmis par des insectes - le cas de Xylella fastidiosa</title>
+      <link>/talk/paris2019/</link>
+      <pubDate>Thu, 27 Jun 2019 13:00:00 +0000</pubDate>
+      <guid>/talk/paris2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifier, comprendre, prévoir autour de la situation de crise sanitaire engendrée par Xylella fastidiosa</title>
+      <link>/talk/paris2018/</link>
+      <pubDate>Wed, 28 Feb 2018 13:00:00 +0000</pubDate>
+      <guid>/talk/paris2018/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

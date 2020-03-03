@@ -53,6 +53,21 @@
   </url>
   
   <url>
+    <loc>/project/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/xylella-fastidiosa/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/internal-project/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/2/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -248,11 +263,6 @@
   </url>
   
   <url>
-    <loc>/tags/xylella-fastidiosa/</loc>
-    <lastmod>2019-11-27T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/journal-article/godefroid2019b/</loc>
     <lastmod>2019-11-28T00:00:00+00:00</lastmod>
   </url>
@@ -348,6 +358,26 @@
   </url>
   
   <url>
+    <loc>/talk/</loc>
+    <lastmod>2019-10-18T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/beijing2019/</loc>
+    <lastmod>2019-10-18T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/risk-analysis/</loc>
+    <lastmod>2019-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/external-project/</loc>
+    <lastmod>2019-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2019/09/10/tdecpaysage/</loc>
     <lastmod>2019-09-10T21:14:14-05:00</lastmod>
   </url>
@@ -395,6 +425,11 @@
   <url>
     <loc>/2019/08/29/installecp2/</loc>
     <lastmod>2019-08-29T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/paris2019/</loc>
+    <lastmod>2019-06-27T13:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -580,6 +615,11 @@
   <url>
     <loc>/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/paris2018/</loc>
+    <lastmod>2018-02-28T13:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -2370,10 +2410,6 @@
   <url>
     <loc>/publication/1995-01-01_rn194/</loc>
     <lastmod>1995-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
   </url>
   
 </urlset>
