@@ -5,12 +5,60 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 28 Feb 2020 01:01:01 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 12 Mar 2020 01:01:01 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>insecte vecteur</title>
+      <link>/tags/insecte-vecteur/</link>
+      <pubDate>Thu, 12 Mar 2020 01:01:01 +0000</pubDate>
+      <guid>/tags/insecte-vecteur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philaenus spumarius</title>
+      <link>/tags/philaenus-spumarius/</link>
+      <pubDate>Thu, 12 Mar 2020 01:01:01 +0000</pubDate>
+      <guid>/tags/philaenus-spumarius/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>risque</title>
+      <link>/tags/risque/</link>
+      <pubDate>Thu, 12 Mar 2020 01:01:01 +0000</pubDate>
+      <guid>/tags/risque/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xylella fastidiosa</title>
+      <link>/tags/xylella-fastidiosa/</link>
+      <pubDate>Thu, 12 Mar 2020 01:01:01 +0000</pubDate>
+      <guid>/tags/xylella-fastidiosa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insecte sentinelle</title>
+      <link>/tags/insecte-sentinelle/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/insecte-sentinelle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylaenus spumarius</title>
+      <link>/tags/phylaenus-spumarius/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/phylaenus-spumarius/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>biocontrôle</title>
@@ -25,14 +73,6 @@
       <link>/tags/fishualize/</link>
       <pubDate>Wed, 26 Feb 2020 21:13:14 -0500</pubDate>
       <guid>/tags/fishualize/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xylella fastidiosa</title>
-      <link>/tags/xylella-fastidiosa/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/xylella-fastidiosa/</guid>
       <description></description>
     </item>
     
@@ -65,30 +105,6 @@
       <link>/tags/thaumetopoea-pityocampa/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/tags/thaumetopoea-pityocampa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>insecte vecteur</title>
-      <link>/tags/insecte-vecteur/</link>
-      <pubDate>Wed, 27 Nov 2019 21:13:14 -0500</pubDate>
-      <guid>/tags/insecte-vecteur/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Philaenus spumarius</title>
-      <link>/tags/philaenus-spumarius/</link>
-      <pubDate>Wed, 27 Nov 2019 21:13:14 -0500</pubDate>
-      <guid>/tags/philaenus-spumarius/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>risque</title>
-      <link>/tags/risque/</link>
-      <pubDate>Wed, 27 Nov 2019 21:13:14 -0500</pubDate>
-      <guid>/tags/risque/</guid>
       <description></description>
     </item>
     
@@ -249,14 +265,6 @@
       <link>/tags/urban-landscape/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>/tags/urban-landscape/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Phylaenus spumarius</title>
-      <link>/tags/phylaenus-spumarius/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/phylaenus-spumarius/</guid>
       <description></description>
     </item>
     

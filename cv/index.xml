@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cvs | Jean-Pierre Rossi - Inrae</title>
+    <link>/cv/</link>
+      <atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cvs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Â© 2020 J.-P. Rossi</copyright>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Cvs</title>
+      <link>/cv/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/cv/rpackages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/cv/rpackages/</guid>
+      <description>&lt;!DOCTYPE html PUBLIC &#34;-//W3C//DTD XHTML 1.0 Strict//EN&#34; &#34;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&#34;&gt;
+&lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34; xml:lang=&#34;fr&#34; lang=&#34;fr&#34;&gt;
+&lt;head&gt;
+&lt;title&gt;Jean-Pierre Rossi&lt;/title&gt;
+&lt;!-- http://www.outils-web.com/page-script-html-css-menu.asp --&gt;
+&lt;!-- traduit et adaptÃ© par outils-web.com --&gt;
+&lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=iso-8859-1&#34;&gt;
+&lt;!-- occidental (iso latin 1) = iso-8859-1) --&gt;
+&lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html; charset=UTF-8&#34; &gt; 
+&lt;link href=&#34;css/helper.css&#34; media=&#34;screen&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+&lt;link href=&#34;css/dropdown.css&#34; media=&#34;screen&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+&lt;link href=&#34;css/default.css&#34; media=&#34;screen&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!---------------------------&gt;
+&lt;h1&gt;Jean-Pierre Rossi&lt;br /&gt;INRA - Centre de Biologie pour la Gestion des Populations (CBGP) &lt;/h1&gt;
+&lt;ul id=&#34;nav&#34; class=&#34;dropdown dropdown-horizontal&#34;&gt;
+	&lt;li class=&#34;first&#34;&gt;&lt;a href=&#34;index.html&#34;&gt;Accueil&lt;/a&gt;&lt;/li&gt;
+	&lt;!-- 	------------------------------------------------- --&gt;
+	&lt;li class=&#34;dir&#34;&gt;Recherches
+		&lt;ul&gt;
+			&lt;li class=&#34;first&#34;&gt;&lt;a href=&#34;recherches.html&#34;&gt;Présentation générale&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&#34;pp.html&#34;&gt;La processionnaire du pin&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&#34;Hh.html&#34;&gt;La punaise diabolique&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&#34;aires.html&#34;&gt;Les aires de distribution potentielle&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&#34;last&#34;&gt;&lt;a href=&#34;vario.html&#34;&gt;Le variogramme en génétiques des populations&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;publications.html&#34;&gt;Publications&lt;/a&gt;
+					&lt;ul&gt;
+					&lt;li class=&#34;first&#34;&gt;&lt;a href=&#34;publications.html&#34;&gt;Articles&lt;/a&gt;&lt;/li&gt;
+					&lt;li class=&#34;last&#34;&gt;&lt;a href=&#34;otherpub.html&#34;&gt;Autres publications&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;!-- 	------------------------------------------------- --&gt;
+	&lt;li class=&#34;dir&#34;&gt;Ressources
+		&lt;ul&gt;
+			&lt;li class=&#34;first&#34;&gt;&lt;a href=&#34;comm.html&#34;&gt;Presse&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&#34;#&#34; class=&#34;dir&#34;&gt;Outils&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li class=&#34;first&#34;&gt;&lt;a href=&#34;rpackages.html&#34;&gt;Packages R&lt;/a&gt;&lt;/li&gt;
+					&lt;li class=&#34;last&#34;&gt;&lt;a href=&#34;othertools.html&#34;&gt;Autres&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class=&#34;last&#34;&gt;&lt;a href=&#34;links.html&#34;&gt;Liens utiles&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li class=&#34; last&#34;&gt;&lt;a href=&#34;proj.html&#34;&gt;Projets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 	------------------------------------------------- --&gt;
+
+
+&lt;div id=&#34;main&#34;&gt;  &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;&lt;div class=&#34;imageflottanteD&#34; style=&#34;height=187px ; width:250&#34;&gt;&lt;img src=&#34;im/Rlogo.png&#34; width=&#34;222&#34; height=&#34;167&#34; border=&#34;0&#34; alt=&#34;R logo&#34;&gt; &lt;/div&gt;&lt;/a&gt;
+
+&lt;p&gt;This page is dedicated to the R packages I have worked on over the years. Follow the links to the package you are interested in and get the information about installation and compatibilities.  &lt;/p&gt;
+
+&lt;br /&gt;
+
+
+&lt;p&gt;&lt;h2&gt;&lt;tpkg&gt;ECPaysage&lt;/tpkg&gt;&lt;/h2&gt;
+&lt;a href=&#34;https://r-forge.r-project.org/R/?group_id=2141&#34; target=&#34;_blank&#34;&gt;&lt;tpkg&gt;ECPpaysage&lt;/tpkg&gt;&lt;/a&gt; was developped as an aid for teaching spatial statistics and landscape ecology within the framework of the researcher school &#34;Landscape and plant health: analyzing, understanding and modelling the environmental processes involved&#34; set up by INRA metaprogram SMaCH. The main stake in the Researcher school will be to share concepts, methods and tools to allow, beyond one&#39;s discipline, to take up questions relative to landscape, in connection with the context and the reasons expected for the sustainability of agricultural systems. &lt;a href=&#34;http://www.smach.inra.fr/en/Events/researcher-school-on-landscape&#34; target=&#34;_blank&#34;&gt;More information.&lt;/a&gt;&lt;br /&gt;
+The package mainly provides dataset used during the course of the researcher school held at Rennes 18-22 january 2016.&lt;br /&gt;
+The lecture on landscape analysis (J.-P. Rossi &amp; C. Lavigne) is available &lt;a href=&#34;rpackages/ecpaysage/TD_Analyse_quanti_paysage.html#%281%29&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; (in French).&lt;br /&gt;
+
+The package ECPaysage is available form R-Forge at &lt;a href=&#34;https://r-forge.r-project.org/R/?group_id=2141&#34;&gt;https://r-forge.r-project.org/R/?group_id=2141&lt;/a&gt;&lt;br /&gt;
+Details about its installation and functions are available &lt;a href=&#34;rpackages/ecpaysage/informations-ecpaysage.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; (in French).&lt;br /&gt;
+&lt;/p&gt;&lt;br /&gt;
+&lt;!-- ------------------------------------------------------ --&gt;
+
+&lt;h2&gt;&lt;tpkg&gt;ggene&lt;/tpkg&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;tpkg&gt;ggene&lt;/tpkg&gt; is a package dedicated to the structural analysis of genetic datasets. This includes geostatistics and in particular variogram analysis. &lt;br /&gt;
+This package is &lt;a href=&#34;https://r-forge.r-project.org/R/?group_id=2143&#34; target=&#34;_blank&#34;&gt;available from R-Forge&lt;/a&gt;. &lt;br /&gt; 
+Visit the &lt;a href=&#34;http://www1.montpellier.inra.fr/CBGP/software/ggene/index.html&#34; target=&#34;_blank&#34;&gt;package home page&lt;/a&gt; for details, examples, code and documentation.
+&lt;/p&gt;&lt;br /&gt;
+&lt;!-- ------------------------------------------------------ --&gt;
+
+&lt;h2&gt;&lt;tpkg&gt;rich&lt;/tpkg&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;tpkg&gt;rich&lt;/tpkg&gt; is dedicated to the analysis of species richness. 
+&lt;br /&gt;The development version of &lt;tpkg&gt;rich&lt;/tpkg&gt; is &lt;a href=&#34;https://r-forge.r-project.org/R/?group_id=979&#34; target=&#34;_blank&#34;&gt;available from R-Forge&lt;/a&gt;.
+&lt;br /&gt;The current stable version of &lt;tpkg&gt;rich&lt;/tpkg&gt; is &lt;a href=&#34;http://cran.at.r-project.org/web/packages/rich/index.html&#34; target=&#34;_blank&#34;&gt;available from the R CRAN&lt;/a&gt;&lt;br /&gt;
+Visit the &lt;a href=&#34;http://www1.montpellier.inra.fr/CBGP/software/rich/index.html&#34; target=&#34;_blank&#34;&gt;package home page&lt;/a&gt; for details and documentation.
+&lt;/p&gt;&lt;br /&gt;
+
+&lt;!-- ------------------------------------------------------ --&gt;
+
+&lt;h2&gt;&lt;tpkg&gt;Rradis&lt;/tpkg&gt;&lt;/h2&gt;
+&lt;p&gt;Rradis is an R package providing functions to process the outputs of RADIS, a software dedicated to the &lt;i&gt;Analysis of RAD-seq data for InterSpecific phylogeny&lt;/i&gt;. More information to come soon.
+&lt;br /&gt;RADIS is described in Cruaud et al (in press) and freely available from &lt;a href=&#34;http://www1.montpellier.inra.fr/CBGP/software/RADIS/index.html&#34; target=&#34;_blank&#34;&gt;this site&lt;/a&gt;.&lt;br /&gt;
+Cruaud, A., Gautier, M., Rossi, J.-P., Rasplus, J.-Y., Gouzy, J., 2016. RADIS: Analysis of RAD-seq data for InterSpecific phylogeny. Bioinformatics. DOI: 10.1093/bioinformatics/btw352&lt;br /&gt;
+&lt;/p&gt;&lt;br /&gt;
+&lt;!-- ------------------------------------------------------ --&gt;
+
+
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;!-- ----------------------------------------------------------------- --&gt;	   
+	   
+&lt;!-- ----------------------------------------------------------------- --&gt;&lt;/body&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

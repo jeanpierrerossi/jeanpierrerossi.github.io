@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ileana Quiquerez | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/ileana-quiquerez/</link>
+      <atom:link href="/authors/ileana-quiquerez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ileana Quiquerez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Ileana Quiquerez</title>
+      <link>/authors/ileana-quiquerez/</link>
+    </image>
+    
+    <item>
+      <title>Xylella fastidiosa - insectes vecteurs, plantes et climat</title>
+      <link>/publication/journal-article/farigoule2020/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/farigoule2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

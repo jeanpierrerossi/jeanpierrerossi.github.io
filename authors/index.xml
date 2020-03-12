@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,10 +13,138 @@
     </image>
     
     <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Je suis directeur de recherche à l&amp;rsquo;Inra de Montpellier. Mes domaines de recherche sont l’entomologie forestière et agricole avec un focus particulier sur la dynamique spatiale des ravageurs dans les paysages.&lt;/p&gt;
+
+&lt;p&gt;Je suis par ailleurs un utilisateur de R depuis 15 ans et ce site sera en partie consacré à ce langage de programmation dont l’actualité est très riche.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Welcome!&lt;/em&gt;
+&lt;em&gt;I am a senior scientist at Inra in Montpellier. My research interests cover forest and crop entomology with a special focus on landscape and spatial dynamics of pests.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I have been an avid R user for circa 15 years and this site is logically partly devoted to this powerful programming language.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Astrid Cruaud</title>
       <link>/authors/astrid-cruaud/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/authors/astrid-cruaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eric Pierre</title>
+      <link>/authors/eric-pierre/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/eric-pierre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>François Casabianca</title>
+      <link>/authors/francois-casabianca/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/francois-casabianca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guenaelle Genson</title>
+      <link>/authors/guenaelle-genson/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/guenaelle-genson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ileana Quiquerez</title>
+      <link>/authors/ileana-quiquerez/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/ileana-quiquerez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Claude Streito</title>
+      <link>/authors/jean-claude-streito/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-claude-streito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Marc Thuillier</title>
+      <link>/authors/jean-marc-thuillier/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-marc-thuillier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Yves Rasplus</title>
+      <link>/authors/jean-yves-rasplus/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-yves-rasplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laëtitia Hugot</title>
+      <link>/authors/laetitia-hugot/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/laetitia-hugot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marguerite Chartois</title>
+      <link>/authors/marguerite-chartois/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/marguerite-chartois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin Godefroid</title>
+      <link>/authors/martin-godefroid/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/martin-godefroid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pauline Farigoule</title>
+      <link>/authors/pauline-farigoule/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/pauline-farigoule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sabine Nidelet</title>
+      <link>/authors/sabine-nidelet/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/sabine-nidelet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sabrina Borgomano</title>
+      <link>/authors/sabrina-borgomano/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/sabrina-borgomano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xavier Mesmin</title>
+      <link>/authors/xavier-mesmin/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/xavier-mesmin/</guid>
       <description></description>
     </item>
     
@@ -45,14 +173,6 @@
     </item>
     
     <item>
-      <title>Guenaelle Genson</title>
-      <link>/authors/guenaelle-genson/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/guenaelle-genson/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>J.-P. Rossi</title>
       <link>/authors/j.-p.-rossi/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -65,14 +185,6 @@
       <link>/authors/jean-pierre-rossi/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/authors/jean-pierre-rossi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jean-Yves Rasplus</title>
-      <link>/authors/jean-yves-rasplus/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/jean-yves-rasplus/</guid>
       <description></description>
     </item>
     
@@ -101,14 +213,6 @@
     </item>
     
     <item>
-      <title>Marguerite Chartois</title>
-      <link>/authors/marguerite-chartois/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/marguerite-chartois/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>N. Meurisse</title>
       <link>/authors/n.-meurisse/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -130,30 +234,6 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/authors/s.-rocha/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Xavier Mesmin</title>
-      <link>/authors/xavier-mesmin/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/xavier-mesmin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Je suis directeur de recherche à l&amp;rsquo;Inra de Montpellier. Mes domaines de recherche sont l’entomologie forestière et agricole avec un focus particulier sur la dynamique spatiale des ravageurs dans les paysages.&lt;/p&gt;
-
-&lt;p&gt;Je suis par ailleurs un utilisateur de R depuis 15 ans et ce site sera en partie consacré à ce langage de programmation dont l’actualité est très riche.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Welcome!&lt;/em&gt;
-&lt;em&gt;I am a senior scientist at Inra in Montpellier. My research interests cover forest and crop entomology with a special focus on landscape and spatial dynamics of pests.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;I have been an avid R user for circa 15 years and this site is logically partly devoted to this powerful programming language.&lt;/em&gt;&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -209,14 +289,6 @@
       <link>/authors/frans-groenen/</link>
       <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/frans-groenen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Martin Godefroid</title>
-      <link>/authors/martin-godefroid/</link>
-      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/martin-godefroid/</guid>
       <description></description>
     </item>
     
@@ -293,14 +365,6 @@
     </item>
     
     <item>
-      <title>Jean-Claude Streito</title>
-      <link>/authors/jean-claude-streito/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/jean-claude-streito/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gauthier Dobigny</title>
       <link>/authors/gauthier-dobigny/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
@@ -365,34 +429,10 @@
     </item>
     
     <item>
-      <title>Pauline Farigoule</title>
-      <link>/authors/pauline-farigoule/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/pauline-farigoule/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Anne-Alicia Gonzalez</title>
       <link>/authors/anne-alicia-gonzalez/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       <guid>/authors/anne-alicia-gonzalez/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jean-Marc Thuillier</title>
-      <link>/authors/jean-marc-thuillier/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/jean-marc-thuillier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sabine Nidelet</title>
-      <link>/authors/sabine-nidelet/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/sabine-nidelet/</guid>
       <description></description>
     </item>
     
@@ -1717,7 +1757,7 @@
     </item>
     
     <item>
-      <title>I. {Van Halder}</title>
+      <title>I. {van Halder}</title>
       <link>/authors/i.-van-halder/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       <guid>/authors/i.-van-halder/</guid>
@@ -2317,7 +2357,7 @@
     </item>
     
     <item>
-      <title>P. Queneherve</title>
+      <title>P. QuEnEhervE</title>
       <link>/authors/p.-queneherve/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       <guid>/authors/p.-queneherve/</guid>

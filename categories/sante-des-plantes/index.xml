@@ -5,12 +5,25 @@
     <link>/categories/sante-des-plantes/</link>
       <atom:link href="/categories/sante-des-plantes/index.xml" rel="self" type="application/rss+xml" />
     <description>Santé des plantes</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Fri, 28 Feb 2020 01:01:01 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 12 Mar 2020 01:01:01 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Santé des plantes</title>
       <link>/categories/sante-des-plantes/</link>
     </image>
+    
+    <item>
+      <title>Nouvel article sur Xylella fastidiosa : insectes vecteurs, plantes et climat</title>
+      <link>/2020/03/12/phytomaxf/</link>
+      <pubDate>Thu, 12 Mar 2020 01:01:01 +0000</pubDate>
+      <guid>/2020/03/12/phytomaxf/</guid>
+      <description>
+
+
+&lt;p&gt;Nous venons de publier un article de synthèse de l’état des connaissances sur la bactérie &lt;em&gt;Xylella fastidiosa&lt;/em&gt;. Nous y discutons les facteurs biotiques et abiotiques qui influencent la dynamique de la bactérie et les réseaux formés par les insectes vecteurs et les plantes sur lesquelles ils s’alimentent. L’objectif est d’anticiper et limiter la progression de l’épidémie et de développer des méthodes de gestion respectueuses de l’environnement.&lt;/p&gt;
+&lt;p&gt;Plus d’information ici : &lt;a href=&#34;http://127.0.0.1:4321/publication/journal-article/farigoule2020/&#34; class=&#34;uri&#34;&gt;http://127.0.0.1:4321/publication/journal-article/farigoule2020/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Biocontrôle : éléments pour une protection agroécologique des cultures</title>
