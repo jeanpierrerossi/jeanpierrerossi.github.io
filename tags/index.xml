@@ -5,12 +5,36 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 12 Mar 2020 01:01:01 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>landscapeR</title>
+      <link>/tags/landscaper/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/landscaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package R</title>
+      <link>/tags/package-r/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/package-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raster</title>
+      <link>/tags/raster/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/raster/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>insecte vecteur</title>
@@ -201,14 +225,6 @@
       <link>/tags/ooctonus-vulgatus/</link>
       <pubDate>Mon, 09 Sep 2019 21:13:14 -0500</pubDate>
       <guid>/tags/ooctonus-vulgatus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>package R</title>
-      <link>/tags/package-r/</link>
-      <pubDate>Thu, 29 Aug 2019 21:14:14 -0500</pubDate>
-      <guid>/tags/package-r/</guid>
       <description></description>
     </item>
     

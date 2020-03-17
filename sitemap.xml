@@ -3,17 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-03-12T01:01:01+00:00</lastmod>
+    <loc>/2020/03/17/raster1/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/insecte-vecteur/</loc>
-    <lastmod>2020-03-12T01:01:01+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/landscaper/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/package-r/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/raster/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/insecte-vecteur/</loc>
     <lastmod>2020-03-12T01:01:01+00:00</lastmod>
   </url>
   
@@ -28,22 +63,12 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-03-12T01:01:01+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/risque/</loc>
     <lastmod>2020-03-12T01:01:01+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/sante-des-plantes/</loc>
-    <lastmod>2020-03-12T01:01:01+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-03-12T01:01:01+00:00</lastmod>
   </url>
   
@@ -188,11 +213,6 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2020-02-26T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
@@ -200,76 +220,6 @@
   <url>
     <loc>/project/internal-project/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/c.-burban/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/c.-kerdelhue/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/2020-01-01_rn100/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/f.-groenen/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/2020-01-01_rn101/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/j.-p.-rossi/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/jean-pierre-rossi/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/l.-saune/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/m.-branco/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/m.-godefroid/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/n.-meurisse/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/2020-01-01_rn99/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/r.-leblois/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/s.-rocha/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -478,11 +428,6 @@
   </url>
   
   <url>
-    <loc>/tags/package-r/</loc>
-    <lastmod>2019-08-29T21:14:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2019/08/29/installecp2complement/</loc>
     <lastmod>2019-08-29T21:14:14-05:00</lastmod>
   </url>
@@ -548,11 +493,6 @@
   </url>
   
   <url>
-    <loc>/publication/2019-01-01_rn102/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/a.-cruaud/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -588,17 +528,22 @@
   </url>
   
   <url>
+    <loc>/authors/j.-p.-rossi/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/l.-saune/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/m.-godefroid/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/2019-01-01_rn104/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/2019-01-01_rn103/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/2019-01-01_rn105/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -668,12 +613,7 @@
   </url>
   
   <url>
-    <loc>/publication/2018-01-01_rn106/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/2018-01-01_rn108/</loc>
+    <loc>/authors/jean-pierre-rossi/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -843,17 +783,7 @@
   </url>
   
   <url>
-    <loc>/publication/2016-01-01_rn112/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/2016-01-01_rn111/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/2016-01-01_rn115/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -883,11 +813,6 @@
   </url>
   
   <url>
-    <loc>/authors/h.-santos/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/2016-01-01_rn116/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -904,11 +829,6 @@
   
   <url>
     <loc>/authors/lise-dupont/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/m.-r.-r.-paiva/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -944,11 +864,6 @@
   
   <url>
     <loc>/authors/thibaud-decaens/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/2016-01-01_rn114/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1583,6 +1498,11 @@
   </url>
   
   <url>
+    <loc>/authors/c.-kerdelhue/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/2012-01-01_rn144/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -1758,6 +1678,11 @@
   </url>
   
   <url>
+    <loc>/authors/c.-burban/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/c.-deborde/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -1778,6 +1703,11 @@
   </url>
   
   <url>
+    <loc>/authors/h.-santos/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/2011-01-01_rn149/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -1789,6 +1719,11 @@
   
   <url>
     <loc>/authors/jean-charles-samalens/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/m.-branco/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url>
   

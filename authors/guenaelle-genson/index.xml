@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guenaelle Genson | Jean-Pierre Rossi - Inrae</title>
+    <title>Guénaëlle Genson | Jean-Pierre Rossi - Inrae</title>
     <link>/authors/guenaelle-genson/</link>
       <atom:link href="/authors/guenaelle-genson/index.xml" rel="self" type="application/rss+xml" />
-    <description>Guenaelle Genson</description>
+    <description>Guénaëlle Genson</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Guenaelle Genson</title>
+      <title>Guénaëlle Genson</title>
       <link>/authors/guenaelle-genson/</link>
     </image>
     
@@ -17,14 +17,6 @@
       <link>/publication/journal-article/farigoule2020/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/farigoule2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ooctonus vulgatus (Hymenoptera, Mymaridae), a potential biocontrol agent to reduce populations of Philaenus spumarius (Hemiptera, Aphrophoridae) the main vector of Xylella fastidiosa in Europe</title>
-      <link>/publication/2020-01-01_rn99/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/2020-01-01_rn99/</guid>
       <description></description>
     </item>
     

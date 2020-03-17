@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>landscapeR | Jean-Pierre Rossi - Inrae</title>
+    <link>/tags/landscaper/</link>
+      <atom:link href="/tags/landscaper/index.xml" rel="self" type="application/rss+xml" />
+    <description>landscapeR</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>landscapeR</title>
+      <link>/tags/landscaper/</link>
+    </image>
+    
+    <item>
+      <title>Basic operations on raster objects in R</title>
+      <link>/2020/03/17/raster1/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/2020/03/17/raster1/</guid>
+      <description>
+
+
+&lt;p&gt;In this post I will go through some basic operations on raster objects using the famous &lt;code&gt;raster&lt;/code&gt; package developped by Robert Hijmans.&lt;/p&gt;
+&lt;p&gt;First we need a raster and it seemed interesting to simulate a raster rather than using a pre existing example. For that purpose, we’re using the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;landscapeR&lt;/code&gt; developped by Dario Masante.&lt;/p&gt;
+&lt;div id=&#34;creating-an-example-raster-object&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Creating an example raster object&lt;/h2&gt;
+&lt;p&gt;We load both libraries.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;suppressWarnings(library(landscapeR)) 
+suppressWarnings(library(raster))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We create an empty raster:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;m &amp;lt;- matrix(0, 50, 50)
+r &amp;lt;- raster(m, xmn=0, xmx=10, ymn=0, ymx=10)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then we create a landscape class using &lt;code&gt;landscapeR::makeClass&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;r2 &amp;lt;- makeClass(context=r, npatch=10, size=100, val=1, bgr=0)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we add more classes and a background:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;r2 &amp;lt;- makeClass(context=r2, npatch=5, size=100, val=2, bgr=0)
+r2 &amp;lt;- makeClass(context=r2, npatch=3, size=100, val=3, bgr=0)
+r2 &amp;lt;- makeClass(context=r2, npatch=10, size=50, val=4, bgr=0)
+r &amp;lt;- makeClass(context=r2, npatch=1, size=250, bgr=c(0:4), val=5)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We have generated the following raster object:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(r, legend=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If we were (and we are!) to use non-default colors to plot a beautiful map, the amazing &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;fishualise&lt;/code&gt; is what we need. &lt;code&gt;fishualise&lt;/code&gt; provides beautiful color palettes derived from selected fish species. Let’s use the palette associated to &lt;em&gt;Callanthias australis&lt;/em&gt;, a splendid perch from Australia (fam. Callanthiidae).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;suppressWarnings(library(fishualize))
+pal &amp;lt;- fish(length(unique(r[])), option = &amp;quot;Callanthias_australis&amp;quot;)
+plot(r, col=pal, legend=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Now we have our example raster. Let’s go through several useful operations using the package &lt;code&gt;raster&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;changing-the-resolution-rasteraggregate&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Changing the resolution &lt;code&gt;raster::aggregate&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;The resolution is the size of the pixels forming the raster layer. It is also called the grain. It is possible to aggregate pixels to build larger entities. This amounts to decrease the resolution or increase the grain. The important thing is the rule used to aggregate pixels. We can take the mean of the aggregated pixels as well as other values such as the minimum value, the maximum, or any other value. We just need to make sure of the meaning of such value. For example, qualitative variables coded as number may lead to meaningless values when aggregated…&lt;/p&gt;
+&lt;p&gt;We take the mean.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ra &amp;lt;- aggregate(r, fact=4, fun=mean)
+plot(ra, col=pal, legend=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We take the minimum.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ra &amp;lt;- aggregate(r, fact=4, fun=min)
+plot(ra, col=pal, legend=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We take the maximum.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ra &amp;lt;- aggregate(r, fact=4, fun=max)
+plot(ra, col=pal, legend=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Resulting maps are very different...&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cropping-a-subset-of-a-raster-object&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Cropping a subset of a raster object&lt;/h2&gt;
+&lt;p&gt;A subset of a raster can easily be extracted. This operation can be done using &lt;code&gt;raster::crop&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;e &amp;lt;- extent(c(xmin=2, xmax=6, ymin=3, ymax=5))
+rc &amp;lt;- crop(x=r, y=e)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That’s it!&lt;/p&gt;
+&lt;p&gt;We plot the original raster and add a rectangle to show the subset we crop :&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(r, main=&amp;quot;the original raster&amp;quot;, col=pal, legend=T)
+rect(xleft=2, ybottom=3, xright=6, ytop=5)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;And we plot the subset :&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(rc, main = &amp;quot;the subset&amp;quot;, col=pal, legend=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;changing-raster-values&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Changing raster values&lt;/h2&gt;
+&lt;p&gt;We can reclassy the raster values using the function &lt;code&gt;raster::reclassify&lt;/code&gt; or directly modify certain values.&lt;/p&gt;
+&lt;div id=&#34;reclassify&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Reclassify&lt;/h3&gt;
+&lt;p&gt;This function changes the values for all the cells across the raster. Here’s an example:&lt;/p&gt;
+&lt;p&gt;The values in &lt;code&gt;r&lt;/code&gt; are 0, 1, 2, 3, 4, 5&lt;/p&gt;
+&lt;p&gt;Let’s say we reclassify these values into three groups: 0, 0-2 and 2-5.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;unique(r)
+## [1] 0 1 2 3 4 5
+
+# reclassify the values into three groups 
+# all values = 0 stay 0
+# all values &amp;gt; 0 and &amp;lt;= 2 become 1
+# all values &amp;gt; 2 and &amp;lt;= 5 become 2
+
+rc &amp;lt;- reclassify(r, c(-Inf,0,0, 0,2,1, 2,Inf,2), include.lowest=T)
+
+plot(rc, main=&amp;quot;the reclassified raster&amp;quot;, col=fish(length(unique(rc[])), option = &amp;quot;Callanthias_australis&amp;quot;), legend=T) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(r, main=&amp;quot;the original raster&amp;quot;, col=fish(length(unique(r[])), option = &amp;quot;Callanthias_australis&amp;quot;), legend=T) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-13-2.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;direct-change&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Direct change&lt;/h3&gt;
+&lt;p&gt;The values associated to certain pixels can be directly changed. For instance, all values larger than 1 are changed to 10 :&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rc[which(rc[]&amp;gt;1)] &amp;lt;- 10
+plot(rc, main=&amp;quot;modified raster&amp;quot;, col=fish(length(unique(r[])), option = &amp;quot;Callanthias_australis&amp;quot;), legend=T) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Changing the value associated to a given cell can be done using :&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rc &amp;lt;- r ; rc[125:235] &amp;lt;- 12
+plot(rc, main=&amp;quot;modified raster&amp;quot;, col=fish(length(unique(r[])), option = &amp;quot;Callanthias_australis&amp;quot;), legend=T) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;combining-rasters&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Combining rasters&lt;/h2&gt;
+&lt;p&gt;Different rasters can easily be merged using the function &lt;code&gt;raster::merge&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Let’s crop 2 subsets of our raster &lt;code&gt;r&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;e &amp;lt;- extent(c(xmin=2, xmax=5, ymin=2, ymax=4))
+r1 &amp;lt;- crop(x=r, y=e)
+
+e &amp;lt;- extent(c(xmin=7, xmax=9, ymin=6, ymax=9))
+r2 &amp;lt;- crop(x=r, y=e)
+
+plot(r1, legend=T, col=fish(length(unique(r[])), option = &amp;quot;Callanthias_australis&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(r2, legend=T, col=fish(length(unique(r[])), option = &amp;quot;Callanthias_australis&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-16-2.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rm &amp;lt;- merge(r1, r2)
+plot(rm, legend=T, col=fish(length(unique(r[])), option = &amp;quot;Callanthias_australis&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-17-Rlandscape01_files/figure-html/unnamed-chunk-16-3.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Robert J. Hijmans (2019). raster: Geographic Data Analysis and Modeling. R package version 2.9-23. &lt;a href=&#34;https://CRAN.R-project.org/package=raster&#34; class=&#34;uri&#34;&gt;https://CRAN.R-project.org/package=raster&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dario Masante (2017). landscapeR: Categorical Landscape Simulation Facility. R package version 1.2. &lt;a href=&#34;https://CRAN.R-project.org/package=landscapeR&#34; class=&#34;uri&#34;&gt;https://CRAN.R-project.org/package=landscapeR&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
