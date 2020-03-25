@@ -5,12 +5,44 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>biocontrôle</title>
+      <link>/tags/biocontrole/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/biocontrole/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ooctonus vulgatus</title>
+      <link>/tags/ooctonus-vulgatus/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/ooctonus-vulgatus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philaenus spumarius</title>
+      <link>/tags/philaenus-spumarius/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/philaenus-spumarius/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xylella fastidiosa</title>
+      <link>/tags/xylella-fastidiosa/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/xylella-fastidiosa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>landscapeR</title>
@@ -45,26 +77,10 @@
     </item>
     
     <item>
-      <title>Philaenus spumarius</title>
-      <link>/tags/philaenus-spumarius/</link>
-      <pubDate>Thu, 12 Mar 2020 01:01:01 +0000</pubDate>
-      <guid>/tags/philaenus-spumarius/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>risque</title>
       <link>/tags/risque/</link>
       <pubDate>Thu, 12 Mar 2020 01:01:01 +0000</pubDate>
       <guid>/tags/risque/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xylella fastidiosa</title>
-      <link>/tags/xylella-fastidiosa/</link>
-      <pubDate>Thu, 12 Mar 2020 01:01:01 +0000</pubDate>
-      <guid>/tags/xylella-fastidiosa/</guid>
       <description></description>
     </item>
     
@@ -81,14 +97,6 @@
       <link>/tags/phylaenus-spumarius/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/tags/phylaenus-spumarius/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>biocontrôle</title>
-      <link>/tags/biocontrole/</link>
-      <pubDate>Fri, 28 Feb 2020 01:01:01 +0000</pubDate>
-      <guid>/tags/biocontrole/</guid>
       <description></description>
     </item>
     
@@ -217,14 +225,6 @@
       <link>/tags/quantitative-analysis/</link>
       <pubDate>Tue, 10 Sep 2019 21:14:14 -0500</pubDate>
       <guid>/tags/quantitative-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ooctonus vulgatus</title>
-      <link>/tags/ooctonus-vulgatus/</link>
-      <pubDate>Mon, 09 Sep 2019 21:13:14 -0500</pubDate>
-      <guid>/tags/ooctonus-vulgatus/</guid>
       <description></description>
     </item>
     

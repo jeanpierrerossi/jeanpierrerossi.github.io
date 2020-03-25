@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Je suis directeur de recherche à l&amp;rsquo;Inra de Montpellier. Mes domaines de recherche sont l’entomologie forestière et agricole avec un focus particulier sur la dynamique spatiale des ravageurs dans les paysages.&lt;/p&gt;
 
@@ -31,8 +31,40 @@
     <item>
       <title>Astrid Cruaud</title>
       <link>/authors/astrid-cruaud/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/authors/astrid-cruaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guénaëlle Genson</title>
+      <link>/authors/guenaelle-genson/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/guenaelle-genson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Yves Rasplus</title>
+      <link>/authors/jean-yves-rasplus/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-yves-rasplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marguerite Chartois</title>
+      <link>/authors/marguerite-chartois/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/marguerite-chartois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xavier Mesmin</title>
+      <link>/authors/xavier-mesmin/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/xavier-mesmin/</guid>
       <description></description>
     </item>
     
@@ -49,14 +81,6 @@
       <link>/authors/francois-casabianca/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/authors/francois-casabianca/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guénaëlle Genson</title>
-      <link>/authors/guenaelle-genson/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/guenaelle-genson/</guid>
       <description></description>
     </item>
     
@@ -85,26 +109,10 @@
     </item>
     
     <item>
-      <title>Jean-Yves Rasplus</title>
-      <link>/authors/jean-yves-rasplus/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/jean-yves-rasplus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Laëtitia Hugot</title>
       <link>/authors/laetitia-hugot/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/authors/laetitia-hugot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Marguerite Chartois</title>
-      <link>/authors/marguerite-chartois/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/marguerite-chartois/</guid>
       <description></description>
     </item>
     
@@ -137,14 +145,6 @@
       <link>/authors/sabrina-borgomano/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/authors/sabrina-borgomano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xavier Mesmin</title>
-      <link>/authors/xavier-mesmin/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/xavier-mesmin/</guid>
       <description></description>
     </item>
     
@@ -2317,7 +2317,7 @@
     </item>
     
     <item>
-      <title>P. QuEnEhervE</title>
+      <title>P. Queneherve</title>
       <link>/authors/p.-queneherve/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       <guid>/authors/p.-queneherve/</guid>
