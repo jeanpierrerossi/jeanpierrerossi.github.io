@@ -5,12 +5,91 @@
     <link>/tags/raster/</link>
       <atom:link href="/tags/raster/index.xml" rel="self" type="application/rss+xml" />
     <description>raster</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Mon, 01 Jun 2020 21:13:14 -0500</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>raster</title>
       <link>/tags/raster/</link>
     </image>
+    
+    <item>
+      <title>(not that) basic operations on raster objects in R</title>
+      <link>/2020/06/01/raster2/</link>
+      <pubDate>Mon, 01 Jun 2020 21:13:14 -0500</pubDate>
+      <guid>/2020/06/01/raster2/</guid>
+      <description>
+
+
+&lt;p&gt;This post is a sequel of &lt;a href=&#34;/2020/03/17/raster1/&#34;&gt;a first attempt at giving&lt;/a&gt; an overview of some very basic operations on raster objects in &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+&lt;div id=&#34;change-the-coordinate-system-of-a-raster&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Change the coordinate system of a raster&lt;/h2&gt;
+&lt;p&gt;To illustrate how we can change the coordinate system of a raster object we will work with a raster representing the world. Rather than loading a raster somewhere, we will create a raster from a spatial polygon. This will show you how this can be done using the &lt;code&gt;R&lt;/code&gt; packages &lt;code&gt;maps&lt;/code&gt;, &lt;code&gt;sp&lt;/code&gt; and &lt;code&gt;maptools&lt;/code&gt;.&lt;/p&gt;
+&lt;div id=&#34;create-a-raster-object-from-an-object-of-class-map.&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Create a raster object from an object of class &lt;code&gt;map&lt;/code&gt;.&lt;/h3&gt;
+&lt;p&gt;We get a spatial polygon representing the world from the package &lt;code&gt;maps&lt;/code&gt;. The polygon will then be converted into a raster object.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(maps) ; library(maptools)
+## Le chargement a nécessité le package : sp
+## Checking rgeos availability: TRUE
+poly &amp;lt;- map(&amp;quot;world&amp;quot;, fill=TRUE, col=&amp;quot;transparent&amp;quot;, plot=F)
+class(poly)
+## [1] &amp;quot;map&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The class of &lt;code&gt;poly&lt;/code&gt; is &lt;code&gt;map&lt;/code&gt;. We create a &lt;code&gt;SpatialPolygons&lt;/code&gt; object from &lt;code&gt;poly&lt;/code&gt; using the function &lt;code&gt;map2SpatialPolygons&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;IDs &amp;lt;- sapply(strsplit(poly$names, &amp;quot;:&amp;quot;), function(x) x[1])
+poly_sp &amp;lt;- map2SpatialPolygons(poly, IDs=IDs, proj4string=CRS(&amp;quot;+proj=longlat +datum=WGS84&amp;quot;))
+plot(poly_sp)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-04-05-Rlandscape02_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class(poly_sp)
+## [1] &amp;quot;SpatialPolygons&amp;quot;
+## attr(,&amp;quot;package&amp;quot;)
+## [1] &amp;quot;sp&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;convert-spatial-polygons-to-raster&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Convert spatial polygons to raster&lt;/h3&gt;
+&lt;p&gt;This is easily done using the function &lt;code&gt;poly_to_raster&lt;/code&gt; from the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;poly_to_raster&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(raster)
+library(tmaptools)
+r &amp;lt;- poly_to_raster(shp=poly_sp)
+plot(r)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-04-05-Rlandscape02_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class(r)
+## [1] &amp;quot;RasterLayer&amp;quot;
+## attr(,&amp;quot;package&amp;quot;)
+## [1] &amp;quot;raster&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;r&lt;/code&gt; is a nice raster where each country of the world has its own color.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;raster-projection-in-a-new-coordinate-system&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Raster projection in a new coordinate system&lt;/h3&gt;
+&lt;p&gt;First of all, note that as far as coordinate system is concerned, the Holy Grail has been found and is available here: &lt;a href=&#34;https://www.spatialreference.org/&#34; class=&#34;uri&#34;&gt;https://www.spatialreference.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Our raster object initial coordinate system is +proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;projection(r)
+## [1] &amp;quot;+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;raster reprojection is achived using the function &lt;code&gt;projectRaster&lt;/code&gt; for the package &lt;code&gt;raster&lt;/code&gt;. We explore below several projection systems.&lt;/p&gt;
+&lt;p&gt;European-centric ETRS89 Lambert Azimuthal Equal-Area projection:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rp &amp;lt;- projectRaster(from=r, crs=&amp;quot;+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +units=m +no_defs&amp;quot;)
+plot(rp)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-04-05-Rlandscape02_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Let’s try the WGS 84 / North Pole Lambert Azimuthal Equal Area (&lt;a href=&#34;https://www.spatialreference.org/ref/sr-org/7250/&#34; class=&#34;uri&#34;&gt;https://www.spatialreference.org/ref/sr-org/7250/&lt;/a&gt;):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rp &amp;lt;- projectRaster(from=r, crs=&amp;quot;+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs&amp;quot;)
+plot(rp)  &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-04-05-Rlandscape02_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Now the SR-ORG:8796 aka saber (&lt;a href=&#34;https://www.spatialreference.org/ref/sr-org/8796/&#34; class=&#34;uri&#34;&gt;https://www.spatialreference.org/ref/sr-org/8796/&lt;/a&gt;):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rp &amp;lt;- projectRaster(from=r, crs=&amp;quot;+proj=laea +lat_0=0 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs&amp;quot;)
+plot(rp) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-04-05-Rlandscape02_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The SR-ORG:8511 (&lt;a href=&#34;https://www.spatialreference.org/ref/sr-org/8511/&#34; class=&#34;uri&#34;&gt;https://www.spatialreference.org/ref/sr-org/8511/&lt;/a&gt;) is also pretty nice:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rp &amp;lt;- projectRaster(from=r, crs=&amp;quot;+proj=robin +lon_0=00 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs&amp;quot;)
+plot(rp) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-04-05-Rlandscape02_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We can change the center of the map:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Change centre
+rp &amp;lt;- projectRaster(from=r, crs=&amp;quot;+proj=robin +lon_0=+160 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs &amp;quot;)
+plot(rp) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-04-05-Rlandscape02_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;That’s it. Visit &lt;a href=&#34;https://www.spatialreference.org/&#34; class=&#34;uri&#34;&gt;https://www.spatialreference.org/&lt;/a&gt; and try more projections!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Basic operations on raster objects in R</title>
