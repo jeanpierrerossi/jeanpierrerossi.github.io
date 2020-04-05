@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Mon, 01 Jun 2020 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sat, 04 Apr 2020 21:13:14 -0500</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,7 +15,7 @@
     <item>
       <title>package R</title>
       <link>/tags/package-r/</link>
-      <pubDate>Mon, 01 Jun 2020 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 04 Apr 2020 21:13:14 -0500</pubDate>
       <guid>/tags/package-r/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>raster</title>
       <link>/tags/raster/</link>
-      <pubDate>Mon, 01 Jun 2020 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 04 Apr 2020 21:13:14 -0500</pubDate>
       <guid>/tags/raster/</guid>
       <description></description>
     </item>

@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Jean-Pierre Rossi - Inrae</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Mon, 01 Jun 2020 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sat, 04 Apr 2020 21:13:14 -0500</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Jean-Pierre Rossi - Inrae</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Posts</title>
       <link>/post/</link>
-      <pubDate>Mon, 01 Jun 2020 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 04 Apr 2020 21:13:14 -0500</pubDate>
       <guid>/post/</guid>
       <description></description>
     </item>

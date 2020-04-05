@@ -5,7 +5,7 @@
     <link>/tags/package-r/</link>
       <atom:link href="/tags/package-r/index.xml" rel="self" type="application/rss+xml" />
     <description>package R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Mon, 01 Jun 2020 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sat, 04 Apr 2020 21:13:14 -0500</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>package R</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>(not that) basic operations on raster objects in R</title>
-      <link>/2020/06/01/raster2/</link>
-      <pubDate>Mon, 01 Jun 2020 21:13:14 -0500</pubDate>
-      <guid>/2020/06/01/raster2/</guid>
+      <link>/2020/04/04/raster2/</link>
+      <pubDate>Sat, 04 Apr 2020 21:13:14 -0500</pubDate>
+      <guid>/2020/04/04/raster2/</guid>
       <description>
 
 
