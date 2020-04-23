@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Je suis directeur de recherche à l&amp;rsquo;Inra de Montpellier. Mes domaines de recherche sont l’entomologie forestière et agricole avec un focus particulier sur la dynamique spatiale des ravageurs dans les paysages.&lt;/p&gt;
 
@@ -26,6 +26,134 @@
 
 &lt;p&gt;&lt;em&gt;I have been an avid R user for circa 15 years and this site is logically partly devoted to this powerful programming language.&lt;/em&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Eric Pierre</title>
+      <link>/authors/eric-pierre/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/eric-pierre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean-Claude Streito</title>
+      <link>/authors/jean-claude-streito/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jean-claude-streito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marguerite Chartois</title>
+      <link>/authors/marguerite-chartois/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/marguerite-chartois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Cruaud</title>
+      <link>/authors/a.-cruaud/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-cruaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bonnie B., Blaimer</title>
+      <link>/authors/bonnie-b.-blaimer/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/bonnie-b.-blaimer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. Delvare</title>
+      <link>/authors/g.-delvare/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/g.-delvare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean‐Pierre Rossi</title>
+      <link>/authors/jeanpierre-rossi/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jeanpierre-rossi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jean‐Yves Rasplus</title>
+      <link>/authors/jeanyves-rasplus/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jeanyves-rasplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Sauné</title>
+      <link>/authors/l.-saune/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-saune/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Chartois</title>
+      <link>/authors/m.-chartois/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-chartois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Gates</title>
+      <link>/authors/m.-gates/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-gates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Faure</title>
+      <link>/authors/s.-faure/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-faure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Nidelet</title>
+      <link>/authors/s.-nidelet/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-nidelet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Noort</title>
+      <link>/authors/s.-noort/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-noort/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Ratnasingham</title>
+      <link>/authors/s.-ratnasingham/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-ratnasingham/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seán G.Brady</title>
+      <link>/authors/sean-g.brady/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/sean-g.brady/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -53,26 +181,10 @@
     </item>
     
     <item>
-      <title>Marguerite Chartois</title>
-      <link>/authors/marguerite-chartois/</link>
-      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/marguerite-chartois/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Xavier Mesmin</title>
       <link>/authors/xavier-mesmin/</link>
       <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/authors/xavier-mesmin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eric Pierre</title>
-      <link>/authors/eric-pierre/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/eric-pierre/</guid>
       <description></description>
     </item>
     
@@ -89,14 +201,6 @@
       <link>/authors/ileana-quiquerez/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/authors/ileana-quiquerez/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jean-Claude Streito</title>
-      <link>/authors/jean-claude-streito/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/jean-claude-streito/</guid>
       <description></description>
     </item>
     
@@ -285,14 +389,6 @@
     </item>
     
     <item>
-      <title>A. Cruaud</title>
-      <link>/authors/a.-cruaud/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/a.-cruaud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A. S. Meseguer</title>
       <link>/authors/a.-s.-meseguer/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -349,14 +445,6 @@
     </item>
     
     <item>
-      <title>L. Saune</title>
-      <link>/authors/l.-saune/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/l.-saune/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>M. Godefroid</title>
       <link>/authors/m.-godefroid/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -389,7 +477,7 @@
     </item>
     
     <item>
-      <title>Jean-Pierre Rossi</title>
+      <title>Jean Pierre Rossi</title>
       <link>/authors/jean-pierre-rossi/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/authors/jean-pierre-rossi/</guid>
@@ -1557,7 +1645,7 @@
     </item>
     
     <item>
-      <title>Juan Jose Jimenez</title>
+      <title>Juan-Jose Jimenez</title>
       <link>/authors/juan-jose-jimenez/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       <guid>/authors/juan-jose-jimenez/</guid>
@@ -1717,7 +1805,7 @@
     </item>
     
     <item>
-      <title>I. {van Halder}</title>
+      <title>I. {Van Halder}</title>
       <link>/authors/i.-van-halder/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       <guid>/authors/i.-van-halder/</guid>

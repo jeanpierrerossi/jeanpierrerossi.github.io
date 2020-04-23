@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. Gates | Jean-Pierre Rossi - Inrae</title>
+    <link>/authors/m.-gates/</link>
+      <atom:link href="/authors/m.-gates/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. Gates</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>M. Gates</title>
+      <link>/authors/m.-gates/</link>
+    </image>
+    
+    <item>
+      <title>Ultra‐Conserved Elements and morphology reciprocally illuminate conflicting phylogenetic hypotheses in Chalcididae (Hymenoptera, Chalcidoidea)</title>
+      <link>/publication/2020-01-01_rn128/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-01-01_rn128/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

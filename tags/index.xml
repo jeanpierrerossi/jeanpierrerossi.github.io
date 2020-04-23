@@ -5,12 +5,52 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sat, 04 Apr 2020 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>Brown marmorated stink bug</title>
+      <link>/tags/brown-marmorated-stink-bug/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/brown-marmorated-stink-bug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Citizen science</title>
+      <link>/tags/citizen-science/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/citizen-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Halyomorpha halys</title>
+      <link>/tags/halyomorpha-halys/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/halyomorpha-halys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Punaise diabolique</title>
+      <link>/tags/punaise-diabolique/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/punaise-diabolique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sciences participatives</title>
+      <link>/tags/sciences-participatives/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/sciences-participatives/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>package R</title>
