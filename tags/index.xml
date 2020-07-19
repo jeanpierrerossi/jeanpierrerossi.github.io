@@ -5,12 +5,36 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 J.-P. Rossi</copyright><lastBuildDate>Sat, 18 Jul 2020 21:13:14 -0500</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>Andes</title>
+      <link>/tags/andes/</link>
+      <pubDate>Sat, 18 Jul 2020 21:13:14 -0500</pubDate>
+      <guid>/tags/andes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exotiques</title>
+      <link>/tags/exotiques/</link>
+      <pubDate>Sat, 18 Jul 2020 21:13:14 -0500</pubDate>
+      <guid>/tags/exotiques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smallanthus sonchifolius</title>
+      <link>/tags/smallanthus-sonchifolius/</link>
+      <pubDate>Sat, 18 Jul 2020 21:13:14 -0500</pubDate>
+      <guid>/tags/smallanthus-sonchifolius/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Brown marmorated stink bug</title>
